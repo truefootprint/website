@@ -1,8 +1,9 @@
 import Layout from "../components/layout";
+import Hero from "../components/hero";
 
 const Index = () => (
   <Layout>
-    <p>Hello, world!</p>
+    <Hero />
   </Layout>
 );
 
