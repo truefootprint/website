@@ -1,7 +1,12 @@
+import Head from "next/head";
+
 import "./reset.scss";
+import "./typography.scss";
 
 const Layout = ({ children }) => <>
-  <p>Hello from Layout</p>
+  <Head>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" />
+  </Head>
 
   {children}
 </>;
