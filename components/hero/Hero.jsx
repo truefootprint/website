@@ -1,3 +1,4 @@
+import Icon from "../icon";
 import path from "../../helpers/path";
 import css from "./styles.scss";
 
@@ -20,6 +21,10 @@ const Hero = () => (
         <div>sustainability</div>
         <div>projects</div>
       </h3>
+
+      <a href="#problem">
+        <Icon className={css.chevron} name="fa-chevron-down" />
+      </a>
     </div>
   </div>
 );
