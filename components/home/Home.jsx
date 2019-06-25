@@ -2,7 +2,7 @@ import Layout from "../layout";
 import Hero from "../hero";
 import NavBar from "../nav_bar";
 import Heading from "../heading";
-import path from "../../helpers/path";
+import url from "../../helpers/url";
 import css from "./styles.scss";
 
 const Home = () => (
@@ -25,16 +25,16 @@ const Home = () => (
 
       <ul>
         <li>
-          Agribusiness: <a href={path("01-agribusiness-sustainability-report-2019.pdf")} target="_blank">
+          Agribusiness: <a href={url("/static/01-agribusiness-sustainability-report-2019.pdf")} target="_blank">
             The State of Agribusiness Sustainability 2019</a>
         </li>
 
         <li>
-          Cocoa, Coffee, Tea: <a href={path("02-cocoa-coffee-tea-sustainability-report-2019.pdf")} target="_blank">
+          Cocoa, Coffee, Tea: <a href={url("/static/02-cocoa-coffee-tea-sustainability-report-2019.pdf")} target="_blank">
             The State of Cocoa, Coffee, Tea Sustainability 2019</a>
         </li>
 
-        <li>Mining: <a href={path("03-mining-sustainability-report-2019.pdf")} target="_blank">
+        <li>Mining: <a href={url("/static/03-mining-sustainability-report-2019.pdf")} target="_blank">
           The State of Mining Sustainability 2019</a>
         </li>
       </ul>

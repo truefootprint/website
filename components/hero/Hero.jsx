@@ -1,12 +1,12 @@
 import Icon from "../icon";
-import path from "../../helpers/path";
+import url from "../../helpers/url";
 import css from "./styles.scss";
 
 const Hero = () => (
   <div className={css.hero}>
     <div className={css.background}>
       <video muted autoPlay loop>
-        <source src={path("cranes.mp4")} type="video/mp4" />
+        <source src={url("/static/cranes.mp4")} type="video/mp4" />
       </video>
 
       <div className={css.crosshatch} />

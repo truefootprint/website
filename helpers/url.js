@@ -2,6 +2,6 @@ import getConfig from "next-server/config";
 
 const { publicRuntimeConfig } = getConfig();
 const prefix = publicRuntimeConfig.pathPrefix;
-const path = (src) => `${prefix}/static/${src}`;
+const url = (src) => `${prefix}${src}`;
 
-export default path;
+export default url;
