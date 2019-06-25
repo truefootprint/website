@@ -4,7 +4,7 @@ import css from "./styles.scss";
 const Hero = () => (
   <div className={css.hero}>
     <div className={css.background}>
-      <video autoPlay loop>
+      <video muted autoPlay loop>
         <source src={path("cranes.mp4")} type="video/mp4" />
       </video>
 
