@@ -11,6 +11,20 @@ const Home = () => (
     <Hero />
 
     <div className={css.content}>
+      <section className={css.full_width}>
+        <Heading>The Problem</Heading>
+
+        <div className={css.panels}>
+          <div className={css.panel}>
+            TODO
+          </div>
+
+          <div className={css.panel}>
+            TODO
+          </div>
+        </div>
+      </section>
+
       <section className={css.side_by_side}>
         <div className={css.left}>
           <Heading>Solution</Heading>

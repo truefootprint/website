@@ -29,9 +29,22 @@
     margin-top: 2.5rem;
   }
 
-  &:nth-child(2) {
+  &:nth-child(3) {
     padding-top: 5rem;
     background: linear-gradient(white, #f9f9f9);
+  }
+}
+
+.panels {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+
+  .panel {
+    height: 27rem;
+    flex: 1;
+    background: #f7f7f7;
+    margin: 0 0.75rem;
   }
 }
 
