@@ -87,6 +87,10 @@ const Home = () => (
         <p>
           For any inquiries, questions or commendations, please email us at <a href="mailto:info@truefootprint.com">info@truefootprint.com</a>.
         </p>
+
+        <p className={css.copyright}>
+          © {new Date().getFullYear()} TrueFootprint
+        </p>
       </section>
     </div>
   </Layout>
