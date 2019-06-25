@@ -39,6 +39,16 @@ const Home = () => (
         </li>
       </ul>
     </section>
+
+    <section className={css.section}>
+      <Heading>Contact</Heading>
+
+      <h4>Inquiries</h4>
+
+      <p>
+        For any inquiries, questions or commendations, please email us at <a href="mailto:info@truefootprint.com">info@truefootprint.com</a>.
+      </p>
+    </section>
   </Layout>
 );
 
