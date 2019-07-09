@@ -4,7 +4,9 @@
   height: 58rem;
   max-height: 100%;
 
-  background: #448AA9 url("/static/cranes.jpg") center no-repeat;
+  background-color: #448AA9;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 
   // https://stackoverflow.com/questions/10797632/simulate-background-sizecover-on-video-or-img#answer-29997746

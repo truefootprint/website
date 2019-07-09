@@ -60,7 +60,8 @@
   .right {
     flex: 1;
     padding: 4rem 3.5rem 8rem 3.5rem;
-    background: url("/static/working.jpg") center no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   p {

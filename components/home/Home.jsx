@@ -2,7 +2,7 @@ import Layout from "../layout";
 import Hero from "../hero";
 import NavBar from "../nav_bar";
 import Heading from "../heading";
-import url from "../../helpers/url";
+import url, { background } from "../../helpers/url";
 import css from "./styles.scss";
 
 const Home = () => (
@@ -46,7 +46,7 @@ const Home = () => (
           </p>
         </div>
 
-        <div className={css.right} />
+        <div className={css.right} {...background("/static/working.jpg")} />
       </section>
 
       <section className={css.full_width}>

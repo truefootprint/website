@@ -1,10 +1,10 @@
 import Icon from "../icon";
-import url from "../../helpers/url";
+import url, { background } from "../../helpers/url";
 import css from "./styles.scss";
 
 const Hero = () => (
   <div className={css.hero}>
-    <div className={css.background}>
+    <div className={css.background} {...background("/static/cranes.jpg")}>
       <video muted autoPlay loop>
         <source src={url("/static/cranes.mp4")} type="video/mp4" />
       </video>
