@@ -14,6 +14,22 @@ const Home = () => (
     <Hero />
 
     <div className={css.content}>
+      <Target name="approach" className={css.full_width}>
+        <div className={css.wrap}>
+          <Heading>Our Approach</Heading>
+
+          <p>
+            We believe that data helps solve many sustainability problems.
+            We help two types of stakeholders:
+          </p>
+
+          <ul className={css.numbered}>
+            <li><b>companies</b> that invest in the sustainability of their supply chain</li>
+            <li><b>investors</b> who seek sustainable companies and those seeking to make a positive impact</li>
+          </ul>
+        </div>
+      </Target>
+
       <Target name="problem" className={css.full_width}>
         <div className={css.wrap}>
           <Heading>The Problem</Heading>
@@ -71,6 +87,35 @@ const Home = () => (
         </div>
 
         <div className={css.right} {...background("/static/working.jpg")} />
+      </Target>
+
+      <Target name="problem-investors" className={css.full_width}>
+        <div className={css.wrap}>
+          <Heading>The Problem</Heading>
+
+          <p>
+            More and more companies report more and more sustainability numbers.
+            But many are simply inputs or outputs.
+            “We spent x on training” or “we trained y people for n days”.
+            Or they report absolute metrics that obviously are higher for bigger companies than for small companies.
+            This leaves investors in the dark when trying to compare apples to apples.
+          </p>
+        </div>
+      </Target>
+
+      <Target name="solution-investors" className={css.full_width}>
+        <div className={css.wrap}>
+          <Heading>Solution</Heading>
+
+          <p>
+            Our solution: verifiable company-level and industry-specific outcome data, in real-time.
+          </p>
+
+          <p>
+            We provide dashboards that allow investors to compare apples to apples on material Environmental, Social, and Governance outcomes.
+            Greenhouse gas emissions per tonne of product. Resolution rate of conflicts with the local community. Dozens more, tailored by sector.
+          </p>
+        </div>
       </Target>
 
       <Target name="downloads" className={css.full_width}>
