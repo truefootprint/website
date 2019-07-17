@@ -1,9 +1,7 @@
 import { Link as L, Element } from "react-scroll";
 
-const navBarHeight = 7 * 16;
-
 const Link = ({ children, ...rest }) => (
-  <L smooth={true} offset={-navBarHeight} duration={500} spy={true} {...rest}>
+  <L smooth={true} offset={-110} duration={500} spy={true} {...rest}>
     {children}
   </L>
 );

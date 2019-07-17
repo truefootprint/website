@@ -14,156 +14,199 @@ const Home = () => (
     <Hero />
 
     <div className={css.content}>
-      <Target name="approach" className={css.full_width}>
-        <div className={css.wrap}>
-          <Heading>Our Approach</Heading>
+      <Target name="approach">
+        <section className={`${css.full_width} ${css.gradient}`}>
+          <div className={css.wrap}>
+            <Heading>Our Approach</Heading>
 
-          <p>
-            We believe that data helps solve many sustainability problems.
-            We help two types of stakeholders:
-          </p>
+            <p>
+              We believe that data helps solve many sustainability problems.
+              We help two types of stakeholders:
+            </p>
 
-          <ul className={css.numbered}>
-            <li><b>companies</b> that invest in the sustainability of their supply chain</li>
-            <li><b>investors</b> who seek sustainable companies and those seeking to make a positive impact</li>
-          </ul>
-        </div>
+            <ul className={css.numbered}>
+              <li><b>companies</b> that invest in the sustainability of their supply chain</li>
+              <li><b>investors</b> who seek sustainable companies and those seeking to make a positive impact</li>
+            </ul>
+          </div>
+        </section>
       </Target>
 
-      <Target name="problem" className={css.full_width}>
-        <div className={css.wrap}>
-          <Heading>The Problem</Heading>
+      <Target name="companies">
+        <section className={css.full_width}>
+          <div className={css.wrap}>
+            <Heading subheading="(for companies)">The Problem</Heading>
 
-          <div className={css.panels}>
-            <div className={css.panel}>
-              <div className={css.background} {...background("/static/planning.jpg")} />
+            <div className={css.panels}>
+              <div className={css.panel}>
+                <div className={css.background} {...background("/static/planning.jpg")} />
 
-              <h3>Lots of activity</h3>
+                <h3>Lots of activity</h3>
 
-              <p>
-                From cocoa to mining, cotton to banking, shipping to computing:
-                across all industries companies are investing in the sustainability
-                of their supply chains for the planet, for people and for communities.
-              </p>
+                <p>
+                  From cocoa to mining, cotton to banking, shipping to computing:
+                  across all industries companies are investing in the sustainability
+                  of their supply chains for the planet, for people and for communities.
+                </p>
+              </div>
+
+              <div className={css.panel}>
+                <div className={css.background} {...background("/static/driving.jpg")} />
+
+                <h3>But does it work?</h3>
+
+                <p>
+                  Many companies struggle to demonstrate the impact of their sustainability
+                  investments. This starts with credible data. You have spent the money,
+                  but did the community project reach its goals? Did the road to the market get built,
+                  and are people better off as a result? Too often there are no answers.
+                </p>
+              </div>
             </div>
+          </div>
+        </section>
 
-            <div className={css.panel}>
-              <div className={css.background} {...background("/static/driving.jpg")} />
-
-              <h3>But does it work?</h3>
+        <section className={css.side_by_side}>
+          <div className={css.left}>
+            <div className={css.inner}>
+              <Heading>Solution</Heading>
 
               <p>
-                Many companies struggle to demonstrate the impact of their sustainability
-                investments. This starts with credible data. You have spent the money,
-                but did the community project reach its goals? Did the road to the market get built,
-                and are people better off as a result? Too often there are no answers.
+              We work with the beneficiaries of your sustainability projects:
+              the residents of the rural mining villages where you are constructing roads;
+              the cocoa farmers whose children go to the new schools you’re paying for.
+              </p>
+
+              <p>
+              Our technology empowers them to collect data and to take ownership of
+              solutions to improve their lives.
+              </p>
+
+              <p>
+              The people at the base of your supply chain deliver the data you need
+              because it works for them.  It’s good for them and it’s good for you.
               </p>
             </div>
           </div>
-        </div>
+
+          <div className={css.right} {...background("/static/working.jpg")} />
+        </section>
       </Target>
 
-      <Target name="solution" className={css.side_by_side}>
-        <div className={css.left}>
-          <div className={css.inner}>
-            <Heading>Solution</Heading>
+      <Target name="investors">
+        <section className={css.full_width}>
+          <div className={css.wrap}>
+            <Heading subheading="(for investors)">The Problem</Heading>
+
+            <div className={css.panels}>
+              <div className={css.panel}>
+                <div className={css.background} {...background("/static/placeholder.jpg")} />
+
+                <h3>Inputs and Outputs</h3>
+
+                <p>
+                  More and more companies report sustainability numbers but many
+                  are simply inputs and outputs:
+                  “We spent x on training” or “we trained y people for n days”.
+                  It's hard to tell what impact these are having. What do these
+                  numbers mean?
+                </p>
+              </div>
+
+              <div className={css.panel}>
+                <div className={css.background} {...background("/static/placeholder.jpg")} />
+
+                <h3>How to compare?</h3>
+
+                <p>
+                  It's hard to compare these companies, especially when absolute
+                  metrics will obviously be higher for bigger companies than
+                  small ones. This leaves investors in the dark when trying to
+                  compare apples to apples.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className={css.side_by_side}>
+          <div className={css.left}>
+            <div className={css.inner}>
+              <Heading>Solution</Heading>
+
+              <p>
+              Our solution: verifiable company-level and industry-specific <b>outcome</b> data, in real-time.
+              </p>
+
+              <p>
+              We provide dashboards that allow investors to compare apples to
+              apples on Environmental, Social and Governance outcomes, such as:
+              </p>
+
+              <ul>
+                <li>Greenhouse gas emissions per tonne of product</li>
+                <li>Resolution rate of conflicts with the local community</li>
+                <li>Dozens more, tailored by sector</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className={css.right} {...background("/static/placeholder.jpg")} />
+        </section>
+      </Target>
+
+
+      <Target name="downloads">
+        <section className={`${css.full_width} ${css.gradient}`}>
+          <div className={css.wrap}>
+            <Heading>Scorecards</Heading>
 
             <p>
-            We work with the beneficiaries of your sustainability projects:
-            the residents of the rural mining villages where you are constructing roads;
-            the cocoa farmers whose children go to the new schools you’re paying for.
+              We have analysed sustainability and annual reports in key industries.
+              We have found that they do not report enough on the <b>outcomes</b> of sustainability efforts.
+              Our aim is to help companies be strategic and impactful in their reporting on sustainability.
             </p>
 
             <p>
-            Our technology empowers them to collect data and to take ownership of
-            solutions to improve their lives.
+              You can download our free reports:
             </p>
 
+            <ul>
+              <li>
+                Agribusiness: <a href={url("/static/01-agribusiness-sustainability-report-2019.pdf")} target="_blank">
+                  The State of Agribusiness Sustainability 2019</a>
+              </li>
+
+              <li>
+                Cocoa, Coffee, Tea: <a href={url("/static/02-cocoa-coffee-tea-sustainability-report-2019.pdf")} target="_blank">
+                  The State of Cocoa, Coffee, Tea Sustainability 2019</a>
+              </li>
+
+              <li>Mining: <a href={url("/static/03-mining-sustainability-report-2019.pdf")} target="_blank">
+                The State of Mining Sustainability 2019</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </Target>
+
+
+      <Target name="contact">
+        <section className={css.full_width}>
+          <div className={css.wrap}>
+            <Heading>Contact</Heading>
+
+            <h4>Inquiries</h4>
+
             <p>
-            The people at the base of your supply chain deliver the data you need
-            because it works for them.  It’s good for them and it’s good for you.
+              For any inquiries, questions or commendations, please email us at <a href="mailto:info@truefootprint.com">info@truefootprint.com</a>.
+            </p>
+
+            <p className={css.copyright}>
+              © {new Date().getFullYear()} TrueFootprint
             </p>
           </div>
-        </div>
-
-        <div className={css.right} {...background("/static/working.jpg")} />
-      </Target>
-
-      <Target name="problem-investors" className={css.full_width}>
-        <div className={css.wrap}>
-          <Heading>The Problem</Heading>
-
-          <p>
-            More and more companies report more and more sustainability numbers.
-            But many are simply inputs or outputs.
-            “We spent x on training” or “we trained y people for n days”.
-            Or they report absolute metrics that obviously are higher for bigger companies than for small companies.
-            This leaves investors in the dark when trying to compare apples to apples.
-          </p>
-        </div>
-      </Target>
-
-      <Target name="solution-investors" className={css.full_width}>
-        <div className={css.wrap}>
-          <Heading>Solution</Heading>
-
-          <p>
-            Our solution: verifiable company-level and industry-specific outcome data, in real-time.
-          </p>
-
-          <p>
-            We provide dashboards that allow investors to compare apples to apples on material Environmental, Social, and Governance outcomes.
-            Greenhouse gas emissions per tonne of product. Resolution rate of conflicts with the local community. Dozens more, tailored by sector.
-          </p>
-        </div>
-      </Target>
-
-      <Target name="downloads" className={css.full_width}>
-        <div className={css.wrap}>
-          <Heading>Scorecards</Heading>
-
-          <p>
-            We have analysed sustainability and annual reports in key industries.
-            We have found that they do not report enough on the <b>outcomes</b> of sustainability efforts.
-            Our aim is to help companies be strategic and impactful in their reporting on sustainability.
-          </p>
-
-          <p>
-            You can download our free reports:
-          </p>
-
-          <ul>
-            <li>
-              Agribusiness: <a href={url("/static/01-agribusiness-sustainability-report-2019.pdf")} target="_blank">
-                The State of Agribusiness Sustainability 2019</a>
-            </li>
-
-            <li>
-              Cocoa, Coffee, Tea: <a href={url("/static/02-cocoa-coffee-tea-sustainability-report-2019.pdf")} target="_blank">
-                The State of Cocoa, Coffee, Tea Sustainability 2019</a>
-            </li>
-
-            <li>Mining: <a href={url("/static/03-mining-sustainability-report-2019.pdf")} target="_blank">
-              The State of Mining Sustainability 2019</a>
-            </li>
-          </ul>
-        </div>
-      </Target>
-
-      <Target name="contact" className={css.full_width}>
-        <div className={css.wrap}>
-          <Heading>Contact</Heading>
-
-          <h4>Inquiries</h4>
-
-          <p>
-            For any inquiries, questions or commendations, please email us at <a href="mailto:info@truefootprint.com">info@truefootprint.com</a>.
-          </p>
-
-          <p className={css.copyright}>
-            © {new Date().getFullYear()} TrueFootprint
-          </p>
-        </div>
+        </section>
       </Target>
 
       <div className={css.spacer} />

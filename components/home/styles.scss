@@ -19,6 +19,10 @@
     font-size: 1.5rem;
     margin-top: 3rem;
   }
+
+  section.gradient {
+    background: linear-gradient(white, #f7f7f7);
+  }
 }
 
 .wrap {
@@ -36,23 +40,6 @@
 
   p {
     margin-top: 2.5rem;
-  }
-
-  &:nth-child(1) {
-    background: linear-gradient(white, #f9f9f9);
-  }
-
-  &:nth-child(5) {
-    background: #f7f7f7;
-  }
-
-  &:nth-child(6) {
-    background: linear-gradient(white, #f9f9f9);
-    padding-top: 8rem;
-  }
-
-  &:nth-child(7) {
-    padding-top: 6rem;
   }
 }
 

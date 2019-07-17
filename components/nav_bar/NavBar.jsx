@@ -9,9 +9,8 @@ const NavBar = () => (
     </div>
 
     <div className={css.right}>
-      <Link to="approach" activeClass={css.active}>Approach</Link>
-      <Link to="problem" activeClass={css.active}>Problem</Link>
-      <Link to="solution" activeClass={css.active}>Solution</Link>
+      <Link to="companies" activeClass={css.active}>Companies</Link>
+      <Link to="investors" activeClass={css.active}>Investors</Link>
       <Link to="downloads" activeClass={css.active}>Downloads</Link>
       <Link to="contact" activeClass={css.active}>Contact</Link>
     </div>
