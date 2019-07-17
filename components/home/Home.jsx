@@ -2,16 +2,19 @@ import Layout from "../layout";
 import Hero from "../hero";
 import NavBar from "../nav_bar";
 import Heading from "../heading";
+import { Target } from "../scroll";
 import url, { background } from "../../helpers/url";
 import css from "./styles.scss";
 
 const Home = () => (
   <Layout>
+    <Target name="top" />
+
     <NavBar />
     <Hero />
 
     <div className={css.content}>
-      <section className={css.full_width}>
+      <Target name="problem" className={css.full_width}>
         <div className={css.wrap}>
           <Heading>The Problem</Heading>
 
@@ -42,9 +45,9 @@ const Home = () => (
             </div>
           </div>
         </div>
-      </section>
+      </Target>
 
-      <section className={css.side_by_side}>
+      <Target name="solution" className={css.side_by_side}>
         <div className={css.left}>
           <div className={css.inner}>
             <Heading>Solution</Heading>
@@ -68,9 +71,9 @@ const Home = () => (
         </div>
 
         <div className={css.right} {...background("/static/working.jpg")} />
-      </section>
+      </Target>
 
-      <section className={css.full_width}>
+      <Target name="downloads" className={css.full_width}>
         <div className={css.wrap}>
           <Heading>Scorecards</Heading>
 
@@ -100,9 +103,9 @@ const Home = () => (
             </li>
           </ul>
         </div>
-      </section>
+      </Target>
 
-      <section className={css.full_width}>
+      <Target name="contact" className={css.full_width}>
         <div className={css.wrap}>
           <Heading>Contact</Heading>
 
@@ -116,7 +119,9 @@ const Home = () => (
             © {new Date().getFullYear()} TrueFootprint
           </p>
         </div>
-      </section>
+      </Target>
+
+      <div className={css.spacer} />
     </div>
   </Layout>
 );

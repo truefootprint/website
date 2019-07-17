@@ -38,6 +38,10 @@
     background: linear-gradient(white, #f9f9f9);
     padding-top: 8rem;
   }
+
+  &:nth-child(4) {
+    padding-top: 6rem;
+  }
 }
 
 .panels {
@@ -116,4 +120,18 @@
   color: black;
   position: relative;
   top: 5rem;
+}
+
+$bg: #efefef;
+
+.spacer {
+  margin-top: 8rem;
+  height: 50rem;
+
+  background:
+    linear-gradient(45deg, transparent 45%, $bg 50%, transparent 55%, transparent 100%),
+    linear-gradient(-45deg, transparent 45%, $bg 50%, transparent 55%, transparent 100%);
+  background-size: 10px 10px;
+
+  box-shadow: 0 0.5rem 0.5rem -0.5rem rgba(0, 0, 0, 0.2) inset;
 }

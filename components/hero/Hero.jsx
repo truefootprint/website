@@ -1,4 +1,5 @@
 import Icon from "../icon";
+import { Link } from "../scroll";
 import url, { background } from "../../helpers/url";
 import css from "./styles.scss";
 
@@ -22,9 +23,9 @@ const Hero = () => (
         <div>projects</div>
       </h3>
 
-      <a href="#problem">
+      <Link to="problem">
         <Icon className={css.chevron} name="fa-chevron-down" />
-      </a>
+      </Link>
     </div>
   </div>
 );
