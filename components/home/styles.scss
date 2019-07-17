@@ -57,6 +57,28 @@
     &:last-child {
       margin-left: 0.75rem;
     }
+
+    .background {
+      width: 100%;
+      height: 14rem;
+      background-size: cover;
+    }
+
+    h3, p {
+      padding: 0 1.5rem;
+    }
+
+    h3 {
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: #3D5975;
+      margin-top: 2rem;
+    }
+
+    p {
+      font-size: 15px;
+      margin-top: 1rem;
+    }
   }
 }
 

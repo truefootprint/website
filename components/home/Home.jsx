@@ -17,11 +17,28 @@ const Home = () => (
 
           <div className={css.panels}>
             <div className={css.panel}>
-              TODO
+              <div className={css.background} {...background("/static/planning.jpg")} />
+
+              <h3>Lots of activity</h3>
+
+              <p>
+                From cocoa to mining, cotton to banking, shipping to computing:
+                across all industries companies are investing in the sustainability
+                of their supply chains for the planet, for people and for communities.
+              </p>
             </div>
 
             <div className={css.panel}>
-              TODO
+              <div className={css.background} {...background("/static/driving.jpg")} />
+
+              <h3>But does it work?</h3>
+
+              <p>
+                Many companies struggle to demonstrate the impact of their sustainability
+                investments. This starts with credible data. You have spent the money,
+                but did the community project reach its goals? Did the road to the market get built,
+                and are people better off as a result? Too often there are no answers.
+              </p>
             </div>
           </div>
         </div>
