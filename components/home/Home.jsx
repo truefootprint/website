@@ -2,7 +2,7 @@ import Layout from "../layout";
 import Hero from "../hero";
 import NavBar from "../nav_bar";
 import Heading from "../heading";
-import { Target } from "../scroll";
+import { Link, Target } from "../scroll";
 import url, { background } from "../../helpers/url";
 import css from "./styles.scss";
 
@@ -25,8 +25,15 @@ const Home = () => (
             </p>
 
             <ul className={css.numbered}>
-              <li><b>companies</b> that invest in the sustainability of their supply chain</li>
-              <li><b>investors</b> who seek sustainable companies and those seeking to make a positive impact</li>
+              <li>
+                <Link to="companies">companies</Link> that invest in the
+                sustainability of their supply chain
+              </li>
+
+              <li>
+                <Link to="investors">investors</Link> who seek sustainable
+                companies and those seeking to make a positive impact
+              </li>
             </ul>
           </div>
         </section>
