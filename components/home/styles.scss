@@ -119,8 +119,7 @@
 .copyright {
   font-size: 15px;
   color: black;
-  position: relative;
-  top: 5rem;
+  padding-top: 5rem;
 }
 
 $bg: #efefef;
@@ -135,4 +134,49 @@ $bg: #efefef;
   background-size: 10px 10px;
 
   box-shadow: 0 0.5rem 0.5rem -0.5rem rgba(0, 0, 0, 0.2) inset;
+}
+
+@media (max-width: 60rem) {
+  .panel {
+    height: 31rem !important;
+  }
+}
+
+@media (max-width: 47rem) {
+  .full_width {
+    padding: 3rem 1.5rem;
+  }
+
+  .spacer {
+    display: none;
+  }
+
+  .panels {
+    display: block;
+    text-align: center;
+  }
+
+  .panel {
+    margin: 0 0 2rem 0 !important;
+    max-width: 25rem;
+    display: inline-block;
+    text-align: left;
+  }
+
+  .side_by_side {
+    display: block;
+
+    :global(.Heading) {
+      text-align: center;
+    }
+
+    .inner {
+      padding: 3rem 1.5rem;
+      max-width: none;
+    }
+
+    .left, .right {
+      min-height: 15rem;
+    }
+  }
 }

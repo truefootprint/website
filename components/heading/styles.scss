@@ -20,3 +20,13 @@
   margin-top: 1.5rem;
   display: inline-block;
 }
+
+@media (max-width: 55rem) {
+  .text {
+    font-size: 2rem;
+  }
+
+  .subheading {
+    font-size: 1.2rem;
+  }
+}

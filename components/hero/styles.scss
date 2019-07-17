@@ -69,3 +69,26 @@ $bg: rgba(0, 0, 0, 0.2);
   color: white;
   margin-top: 6rem;
 }
+
+@media (max-width: 55rem) {
+  .background {
+    height: 30rem;
+
+    video {
+      display: none;
+    }
+  }
+
+  .foreground {
+    height: 30rem;
+  }
+
+  .text {
+    font-size: 2.2rem;
+  }
+
+  .chevron {
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
+}

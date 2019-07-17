@@ -31,3 +31,17 @@
   justify-self: flex-start;
   margin-left: 1.75rem;
 }
+
+@media (max-width: 55rem) {
+  .nav_bar {
+    justify-content: center;
+  }
+
+  .logo {
+    zoom: 0.8;
+  }
+
+  .right {
+    display: none;
+  }
+}
