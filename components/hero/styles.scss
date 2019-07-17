@@ -73,10 +73,6 @@ $bg: rgba(0, 0, 0, 0.2);
 @media (max-width: 55rem) {
   .background {
     height: 30rem;
-
-    video {
-      display: none;
-    }
   }
 
   .foreground {
