@@ -91,22 +91,24 @@
 
   .left, .right {
     flex: 1;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .left {
-    display: flex;
     justify-content: flex-end;
-
-    .inner {
-      padding: 4rem 3.5rem 8rem 3.5rem;
-      max-width: 26.5rem;
-    }
+    background-position: right center;
   }
 
   .right {
+    justify-content: flex-start;
     background-position: left center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  }
+
+  .inner {
+    padding: 4rem 3.5rem 8rem 3.5rem;
+    max-width: 26.5rem;
   }
 
   p {

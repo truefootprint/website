@@ -130,7 +130,9 @@ const Home = () => (
         </section>
 
         <section className={css.side_by_side}>
-          <div className={css.left}>
+          <div className={css.left} {...background("/static/placeholder.jpg")} />
+
+          <div className={css.right}>
             <div className={css.inner}>
               <Heading>Solution</Heading>
 
@@ -150,8 +152,6 @@ const Home = () => (
               </ul>
             </div>
           </div>
-
-          <div className={css.right} {...background("/static/placeholder.jpg")} />
         </section>
       </Target>
 
