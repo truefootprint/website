@@ -7,4 +7,8 @@ const Heading = ({ className, children }) => (
   </div>
 );
 
+Heading.defaultProps = {
+  className: ""
+};
+
 export default Heading;
