@@ -107,7 +107,7 @@ const Home = () => (
 
             <div className={css.panels}>
               <div className={css.panel}>
-                <div className={css.background} {...background("/static/placeholder.jpg")} />
+                <div className={css.background} {...background("/static/coins.jpg")} />
 
                 <h3>Inputs and Outputs</h3>
 
@@ -121,7 +121,7 @@ const Home = () => (
               </div>
 
               <div className={css.panel}>
-                <div className={css.background} {...background("/static/placeholder.jpg")} />
+                <div className={css.background} {...background("/static/fruit.jpg")} />
 
                 <h3>How to compare?</h3>
 
@@ -137,7 +137,7 @@ const Home = () => (
         </section>
 
         <section className={css.side_by_side}>
-          <div className={css.left} {...background("/static/placeholder.jpg")} />
+          <div className={css.left} {...background("/static/tracker.jpg")} />
 
           <div className={css.right}>
             <div className={css.inner}>
