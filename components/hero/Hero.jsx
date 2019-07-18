@@ -1,6 +1,5 @@
 import Icon from "../icon";
 import { Link } from "../scroll";
-import url, { background } from "../../helpers/url";
 import css from "./styles.scss";
 
 const isDesktop = () => (
@@ -9,9 +8,9 @@ const isDesktop = () => (
 
 const Hero = () => (
   <div className={css.hero}>
-    <div className={css.background} {...background("/static/cranes.jpg")}>
+    <div className={css.background}>
       {isDesktop() && <video muted autoPlay loop>
-        <source src={url("/static/cranes.mp4")} type="video/mp4" />
+        <source src="/static/cranes.mp4" type="video/mp4" />
       </video>}
 
       <div className={css.crosshatch} />
