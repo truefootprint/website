@@ -142,6 +142,13 @@ $bg: #efefef;
   }
 }
 
+// TODO: delete after changing the left image to an animated gif.
+@media (min-width: 47rem) {
+  .side_by_side .left {
+    background-size: 30.5rem;
+  }
+}
+
 @media (max-width: 47rem) {
   .full_width {
     padding: 3rem 1.5rem;
