@@ -110,7 +110,7 @@ const Home = () => (
 
             <div className={css.panels}>
               <div className={css.panel}>
-                <div className={css.background} {...background("/static/coins.jpg")} />
+                <div className={css.background} {...background("/static/classroom.jpg")} />
 
                 <h3>Inputs and Outputs</h3>
 
