@@ -29,13 +29,13 @@ const Home = () => (
 
             <ul className={css.numbered}>
               <li>
-                <Link to="companies">companies</Link> that invest in the
-                sustainability of their supply chain
+                <Link to="companies" label="approach-companies">companies</Link> that
+                invest in the sustainability of their supply chain
               </li>
 
               <li>
-                <Link to="investors">investors</Link> who seek sustainable
-                companies and those seeking to make a positive impact
+                <Link to="investors" label="approach-investors">investors</Link> who
+                seek sustainable companies and those seeking to make a positive impact
               </li>
             </ul>
           </div>
