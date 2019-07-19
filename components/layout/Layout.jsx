@@ -1,7 +1,11 @@
 import Head from "next/head";
+import ReactGA from "react-ga";
 
 import "./reset.scss";
 import "./typography.scss";
+
+ReactGA.initialize("UA-144174517-1");
+ReactGA.pageview("/");
 
 const Layout = ({ children }) => <>
   <Head>
