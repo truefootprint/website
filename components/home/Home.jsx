@@ -2,6 +2,7 @@ import Layout from "../layout";
 import Hero from "../hero";
 import NavBar from "../nav_bar";
 import Heading from "../heading";
+import Report from "../report";
 import { Link, Target } from "../scroll";
 import css from "./styles.scss";
 
@@ -183,17 +184,15 @@ const Home = () => (
 
             <ul>
               <li>
-                Agribusiness: <a href="/static/01-agribusiness-sustainability-report-2019.pdf" target="_blank">
-                  The State of Agribusiness Sustainability 2019</a>
+                <Report label="Agribusiness" filename="01-agribusiness-sustainability-report-2019.pdf" />
               </li>
 
               <li>
-                Cocoa, Coffee, Tea: <a href="/static/02-cocoa-coffee-tea-sustainability-report-2019.pdf" target="_blank">
-                  The State of Cocoa, Coffee, Tea Sustainability 2019</a>
+                <Report label="Cocoa, Coffee, Tea" filename="02-cocoa-coffee-tea-sustainability-report-2019.pdf" />
               </li>
 
-              <li>Mining: <a href="/static/03-mining-sustainability-report-2019.pdf" target="_blank">
-                The State of Mining Sustainability 2019</a>
+              <li>
+                <Report label="Mining" filename="03-mining-sustainability-report-2019.pdf" />
               </li>
             </ul>
           </div>
