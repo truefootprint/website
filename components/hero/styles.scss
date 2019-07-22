@@ -4,26 +4,11 @@
   height: 58rem;
   max-height: 100%;
 
-  background: #448AA9 url(/static/cranes.jpg) no-repeat center;
+  background: #8c5137 url(/static/silhouette.jpg) no-repeat center;
   background-size: cover;
 
-  // https://stackoverflow.com/questions/10797632/simulate-background-sizecover-on-video-or-img#answer-29997746
-  overflow: hidden;
   position: fixed;
   top: 0;
-
-  video {
-    height: 100%;
-    width: 177.77777778vh;
-    min-width: 100%;
-    min-height: 56.25vw;
-
-    position: absolute;
-    z-index: -2;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-  }
 }
 
 $bg: rgba(0, 0, 0, 0.2);
@@ -65,7 +50,7 @@ $bg: rgba(0, 0, 0, 0.2);
 .chevron {
   font-size: 4rem;
   color: white;
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 
 @media (max-width: 55rem) {

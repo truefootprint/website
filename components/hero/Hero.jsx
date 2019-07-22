@@ -2,17 +2,9 @@ import Icon from "../icon";
 import { Link } from "../scroll";
 import css from "./styles.scss";
 
-const isDesktop = () => (
-  typeof window !== "undefined" && window.innerWidth >= 55 * 16
-);
-
 const Hero = () => (
   <div className={css.hero}>
     <div className={css.background}>
-      {isDesktop() && <video muted autoPlay loop>
-        <source src="/static/cranes.mp4" type="video/mp4" />
-      </video>}
-
       <div className={css.crosshatch} />
     </div>
 
