@@ -87,7 +87,7 @@
 
 .side_by_side {
   display: flex;
-  background: #f7f7f7;
+  background: #fafafa;
 
   .left, .right {
     flex: 1;
@@ -104,6 +104,7 @@
   .right {
     justify-content: flex-start;
     background-position: left center;
+    box-shadow: 0.2em 0.2em 0.2em #ddd;
   }
 
   .inner {
@@ -139,13 +140,6 @@ $bg: #efefef;
 @media (max-width: 60rem) {
   .panel {
     height: 31rem !important;
-  }
-}
-
-// TODO: delete after changing the left image to an animated gif.
-@media (min-width: 47rem) {
-  .side_by_side .left {
-    background-size: 30.5rem;
   }
 }
 

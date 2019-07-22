@@ -141,9 +141,7 @@ const Home = () => (
         </section>
 
         <section className={css.side_by_side}>
-          <div className={css.left} {...background("/static/tracker.jpg")} />
-
-          <div className={css.right}>
+          <div className={css.left}>
             <div className={css.inner}>
               <Heading>Solution</Heading>
 
@@ -163,6 +161,8 @@ const Home = () => (
               </ul>
             </div>
           </div>
+
+          <div className={css.right} {...background("/static/tracker.png")} />
         </section>
       </Target>
 
