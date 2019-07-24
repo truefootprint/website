@@ -199,6 +199,59 @@ const Home = () => (
         </section>
       </Target>
 
+      <Target name="press">
+        <section className={css.full_width}>
+          <div className={css.wrap}>
+            <Heading>Press</Heading>
+
+            <div className={css.timeline}>
+              <div className={css.item}>
+                <time>23 July 2019</time>
+
+                <p>
+                  Quote from our CEO Fredrik Galtung in the Guardian’s long read about Fairtrade:
+
+                  <blockquote>
+                    “If Fairtrade producers could show that their farmers were 10 or 20 years younger on average,
+                     that would be something. If they could show they’re more climate-resistant,
+                     that would be a massive advantage. But we’re unable to see all this.”
+                  </blockquote>
+                </p>
+
+                <p>Is fair trade finished? <a
+                  href="https://www.theguardian.com/business/2019/jul/23/fairtrade-ethical-certification-supermarkets-sainsburys" target="_blank">
+                    The Guardian
+                  </a>
+                </p>
+              </div>
+
+              <div className={css.item}>
+                <time>10 May 2019</time>
+
+                <p>
+                Fredrik was interviewed by The New Ism
+                by <a href="https://anchor.fm/the-new-ism/episodes/S2-E2-Fredrik-Galtung-e40594" target="_blank">
+                  The New Ism
+                </a>,
+                talking about how bottom-up measurement and empowerment is key in sustainability.
+                </p>
+              </div>
+
+              <div className={css.item}>
+                <time>20 June 2019</time>
+                <p>
+                  And in a podcast
+                  with <a href="https://soundcloud.com/breakthechainpodcast/measuring-outcomes-not-outputs" target="_blank">
+                    Break the Chain
+                  </a>,
+                  Fredrik spoke about inputs and outputs versus outcomes and impact.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </Target>
+
 
       <Target name="contact">
         <section className={css.full_width}>

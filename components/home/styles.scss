@@ -25,6 +25,42 @@
   }
 }
 
+.timeline {
+  border-left: 3px solid #ccc;
+  padding-top: 1rem;
+  margin-top: 4rem;
+
+  time {
+    color: #4A8F72;
+    font-size: 1.2rem;
+
+    &:before {
+      content: '';
+      width: 1.5rem;
+      display: block;
+      border-top: 3px solid #ccc;
+      position: relative;
+      left: -2.5rem;
+      top: 0.8rem;
+    }
+  }
+
+  a {
+    color: #44f;
+  }
+
+  .item {
+    padding: 0 0 3rem 2.5rem;
+  }
+
+  blockquote {
+    max-width: 30rem;
+    margin: 2rem 0 0 2rem;
+    font-style: italic;
+    font-weight: 400;
+  }
+}
+
 .wrap {
   max-width: 60rem;
   margin: auto;
