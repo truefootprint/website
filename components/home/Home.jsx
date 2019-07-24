@@ -213,7 +213,7 @@ const Home = () => (
                 <time>23 July 2019</time>
 
                 <p>
-                  Quote from our CEO Fredrik Galtung in the Guardian’s long read about Fairtrade:
+                  Quote from our CEO Fredrik Galtung in The Guardian’s long read about Fairtrade:
 
                   <blockquote>
                     “If Fairtrade producers could show that their farmers were 10 or 20 years younger on average,
@@ -230,25 +230,25 @@ const Home = () => (
               </div>
 
               <div className={css.item}>
-                <time>10 May 2019</time>
-
-                <p>
-                Fredrik was interviewed by The New Ism
-                by <a href="https://anchor.fm/the-new-ism/episodes/S2-E2-Fredrik-Galtung-e40594" target="_blank">
-                  The New Ism
-                </a>,
-                talking about how bottom-up measurement and empowerment is key in sustainability.
-                </p>
-              </div>
-
-              <div className={css.item}>
                 <time>20 June 2019</time>
                 <p>
-                  And in a podcast
+                  In a podcast
                   with <a href="https://soundcloud.com/breakthechainpodcast/measuring-outcomes-not-outputs" target="_blank">
                     Break the Chain
                   </a>,
                   Fredrik spoke about inputs and outputs versus outcomes and impact.
+                </p>
+              </div>
+
+              <div className={css.item}>
+                <time>10 May 2019</time>
+
+                <p>
+                Fredrik was interviewed
+                by <a href="https://anchor.fm/the-new-ism/episodes/S2-E2-Fredrik-Galtung-e40594" target="_blank">
+                  The New Ism
+                </a>,
+                talking about how bottom-up measurement and empowerment is key in sustainability.
                 </p>
               </div>
             </div>
