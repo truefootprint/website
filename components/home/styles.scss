@@ -141,6 +141,7 @@
     justify-content: flex-start;
     background-position: left center;
     box-shadow: 0.2em 0.2em 0.2em #ddd;
+    position: relative;
   }
 
   .inner {
@@ -150,6 +151,14 @@
 
   p {
     margin-top: 2.5rem;
+  }
+
+  .disclaimer {
+    position: absolute;
+    bottom: -2rem;
+    left: 4rem;
+    color: #666;
+    white-space: no-wrap;
   }
 }
 
@@ -214,6 +223,18 @@ $bg: #efefef;
 
     .left, .right {
       min-height: 15rem;
+    }
+
+    .disclaimer {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 80rem) {
+  .side_by_side {
+    .disclaimer {
+      bottom: inherit;
     }
   }
 }

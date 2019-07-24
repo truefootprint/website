@@ -162,7 +162,11 @@ const Home = () => (
             </div>
           </div>
 
-          <div className={css.right} {...background("/static/tracker.png")} />
+          <div className={css.right} {...background("/static/tracker.png")}>
+            <p className={css.disclaimer}>
+              These graphs are for illustrative purposes only. Their data is not representative.
+            </p>
+          </div>
         </section>
       </Target>
 
