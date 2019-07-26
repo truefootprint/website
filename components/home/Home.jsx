@@ -3,6 +3,7 @@ import Hero from "../hero";
 import NavBar from "../nav_bar";
 import Heading from "../heading";
 import Report from "../report";
+import Profile from "../profile";
 import { Link, Target } from "../scroll";
 import css from "./styles.scss";
 
@@ -203,8 +204,55 @@ const Home = () => (
         </section>
       </Target>
 
+      <section className={`${css.full_width} ${css.team}`}>
+        <div className={css.wrap}>
+          <Heading>Team</Heading>
+
+          <Profile src="/static/fredrik.jpg" name="Fredrik Galtung" title="Chief Executive">
+            <ul>
+              <li>
+                Founded <a href="https://integrityaction.org/" target="_blank">Integrity Action</a>
+              </li>
+              <li>Worked with Google, Siemens, World Bank, Global Fund to Fight Aids, TB, Malaria</li>
+              <li>
+                First employee and Head of Research
+                at <a href="https://www.transparency.org.uk/" target="_blank">Transparency International</a>
+              </li>
+              <li>
+                <a href="https://www.ashoka.org/en-gb/fellow/fredrik-galtung" target="_blank">
+                  Ashoka Fellow
+                </a>
+              </li>
+            </ul>
+          </Profile>
+
+          <Profile src="/static/edwin.jpg" name="Edwin Bos" title="Chief Product Officer">
+            <ul>
+              <li>
+                Chief Innovation Officer
+                at <a href="https://www.reevoo.com/en/" target="_blank">Reevoo</a>
+              </li>
+              <li>PhD in human-computer interaction, postdoc Stanford</li>
+              <li>Worked at Apple and Yahoo, Reevoo</li>
+              <li>Wikipedia contributor</li>
+            </ul>
+          </Profile>
+
+          <Profile src="/static/chris.jpg" name="Chris Patuzzo" title="Chief Technology Officer">
+            <ul>
+              <li>Software engineer and technical architect</li>
+              <li>BSc in computer science, Southampton</li>
+              <li>Worked at Babylon Health, GOV.UK, Reevoo, Which?</li>
+              <li>
+                Creator of the <a href="https://sentient-lang.org/" target="_blank">Sentient</a> programming language
+              </li>
+            </ul>
+          </Profile>
+        </div>
+      </section>
+
       <Target name="press">
-        <section className={css.full_width}>
+        <section className={`${css.full_width} ${css.gradient}`}>
           <div className={css.wrap}>
             <Heading>Press</Heading>
 
@@ -255,7 +303,6 @@ const Home = () => (
           </div>
         </section>
       </Target>
-
 
       <Target name="contact">
         <section className={css.full_width}>
