@@ -45,7 +45,7 @@ const Home = () => (
       <Target name="companies">
         <section className={css.full_width}>
           <div className={css.wrap}>
-            <Heading subheading="(for companies)">The Problem</Heading>
+            <Heading subheading="for companies">The Problem</Heading>
 
             <div className={css.panels}>
               <div className={css.panel}>
@@ -106,7 +106,7 @@ const Home = () => (
       <Target name="investors">
         <section className={css.full_width}>
           <div className={css.wrap}>
-            <Heading subheading="(for investors)">The Problem</Heading>
+            <Heading subheading="for investors">The Problem</Heading>
 
             <div className={css.panels}>
               <div className={css.panel}>
