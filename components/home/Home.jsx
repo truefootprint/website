@@ -112,27 +112,26 @@ const Home = () => (
               <div className={css.panel}>
                 <div className={css.background} {...background("/static/classroom.jpg")} />
 
-                <h3>Inputs and Outputs</h3>
+                <h3>Poor reporting</h3>
 
                 <p>
-                  More and more companies report sustainability numbers but many
-                  are simply inputs and outputs:
-                  “We spent x on training” or “we trained y people for n days”.
-                  It's hard to tell what impact these are having. What do these
-                  numbers mean?
+                  More and more companies report sustainability numbers but are
+                  they making a difference? They may have spent x amount of money
+                  or trained people for y hours, but what impact did that have?
+                  What is really behind the numbers?
                 </p>
               </div>
 
               <div className={css.panel}>
                 <div className={css.background} {...background("/static/fruit.jpg")} />
 
-                <h3>How to compare?</h3>
+                <h3>Difficult to compare</h3>
 
                 <p>
-                  It's hard to compare these companies, especially when absolute
-                  metrics will obviously be higher for bigger companies than
-                  small ones. This leaves investors in the dark when trying to
-                  compare apples to apples.
+                  It’s hard to compare different companies, especially when
+                  absolute numbers will obviously be higher for larger companies
+                  than smaller ones. This leaves investors in the dark when trying
+                  to compare apples to apples.
                 </p>
               </div>
             </div>
