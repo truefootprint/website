@@ -260,13 +260,13 @@ const Home = () => (
 
                 <p>
                   Quote from our CEO Fredrik Galtung in The Guardian’s long read about Fairtrade:
-
-                  <blockquote>
-                    “If Fairtrade producers could show that their farmers were 10 or 20 years younger on average,
-                     that would be something. If they could show they’re more climate-resistant,
-                     that would be a massive advantage. But we’re unable to see all this.”
-                  </blockquote>
                 </p>
+
+                <blockquote>
+                  “If Fairtrade producers could show that their farmers were 10 or 20 years younger on average,
+                   that would be something. If they could show they’re more climate-resistant,
+                   that would be a massive advantage. But we’re unable to see all this.”
+                </blockquote>
 
                 <p>Is fair trade finished? <a
                   href="https://www.theguardian.com/business/2019/jul/23/fairtrade-ethical-certification-supermarkets-sainsburys" target="_blank">
