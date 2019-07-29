@@ -19,30 +19,28 @@ const Home = () => (
     <Hero />
 
     <div className={css.content}>
-      <Target name="approach">
-        <section className={`${css.full_width} ${css.gradient}`}>
-          <div className={css.wrap}>
-            <Heading>Our Approach</Heading>
+      <section className={`${css.full_width} ${css.gradient}`}>
+        <div className={css.wrap}>
+          <Heading>Our Approach</Heading>
 
-            <p>
-              We believe that data helps solve many sustainability problems.
-              We help two types of stakeholders:
-            </p>
+          <p>
+            We believe that data helps solve many sustainability problems.
+            We help two types of stakeholders:
+          </p>
 
-            <ul className={css.numbered}>
-              <li>
-                <Link to="companies" label="approach-companies">companies</Link> that
-                invest in the sustainability of their supply chain
-              </li>
+          <ul className={css.numbered}>
+            <li>
+              <Link to="companies" label="approach-companies">companies</Link> that
+              invest in the sustainability of their supply chain
+            </li>
 
-              <li>
-                <Link to="investors" label="approach-investors">investors</Link> who
-                seek sustainable companies and those seeking to make a positive impact
-              </li>
-            </ul>
-          </div>
-        </section>
-      </Target>
+            <li>
+              <Link to="investors" label="approach-investors">investors</Link> who
+              seek sustainable companies and those seeking to make a positive impact
+            </li>
+          </ul>
+        </div>
+      </section>
 
       <Target name="companies">
         <section className={css.full_width}>

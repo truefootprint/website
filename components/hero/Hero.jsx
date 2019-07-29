@@ -16,10 +16,6 @@ const Hero = () => (
         <div>sustainability</div>
         <div>results</div>
       </h3>
-
-      <Link to="approach" label="hero-chevron">
-        <Icon className={css.chevron} name="fa-chevron-down" />
-      </Link>
     </div>
   </div>
 );
