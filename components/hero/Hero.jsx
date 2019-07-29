@@ -10,10 +10,11 @@ const Hero = () => (
 
     <div className={css.foreground}>
       <h3 className={css.text}>
-        <div>We help companies</div>
-        <div>and investors</div>
-        <div>with better</div>
-        <div>sustainability data</div>
+        <div>We help you</div>
+        <div>achieve</div>
+        <div>true and improved</div>
+        <div>sustainability</div>
+        <div>results</div>
       </h3>
 
       <Link to="approach" label="hero-chevron">
