@@ -35,8 +35,8 @@ const Home = () => (
             </li>
 
             <li>
-              <Link to="investors" label="approach-investors">investors</Link> who
-              seek sustainable companies and those seeking to make a positive impact
+              <Link to="investors" label="approach-investors">investors</Link> seeking
+              to make a positive impact.
             </li>
           </ul>
         </div>
