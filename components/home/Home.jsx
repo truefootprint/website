@@ -144,7 +144,7 @@ const Home = () => (
               <Heading>Solution</Heading>
 
               <p>
-              Our solution: verifiable company-level and industry-specific <b>outcome</b> data, in real-time.
+              Our solution: verifiable, comparable and industry-specific <b>outcome</b> data, in real-time.
               </p>
 
               <p>
