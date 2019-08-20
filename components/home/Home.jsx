@@ -293,6 +293,24 @@ const Home = () => (
                 talking about how bottom-up measurement and empowerment is key in sustainability.
                 </p>
               </div>
+
+              <div className={css.item}>
+                <time>29 March 2019</time>
+
+                <p>
+                Quote from <a href="https://www.miningweekly.com/article/mining-stakeholders-unable-to-assessthe-effectiveness-of-sustainability-investments-analyst-2019-03-29" target="_blank">
+                  Mining Weekly
+                </a> on TrueFootprint’s mining industry Scorecard:
+                </p>
+
+                <blockquote>
+                  “governments, investors and customers have no way at present
+                  of assessing the effectiveness of key business sustainability
+                  investments, which means that some companies are not getting
+                  credit for the work they are doing and the social and
+                  economic value they create.”
+                </blockquote>
+              </div>
             </div>
           </div>
         </section>
