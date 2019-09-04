@@ -141,8 +141,20 @@
   .right {
     justify-content: flex-start;
     background-position: left center;
-    box-shadow: 0.2em 0.2em 0.2em #ddd;
     position: relative;
+
+    .video_container {
+      margin-top: 4rem;
+
+      video {
+        max-width: 100%;
+        max-height: 39rem;
+      }
+
+      .disclaimer {
+        margin: 1rem 2rem 2rem 2rem;
+      }
+    }
   }
 
   .inner {
@@ -155,11 +167,8 @@
   }
 
   .disclaimer {
-    position: absolute;
-    bottom: -2rem;
-    left: 4rem;
+    margin-top: 1rem;
     color: #666;
-    white-space: no-wrap;
   }
 }
 
@@ -214,18 +223,6 @@
 
     .left, .right {
       min-height: 15rem;
-    }
-
-    .disclaimer {
-      display: none;
-    }
-  }
-}
-
-@media (max-width: 80rem) {
-  .side_by_side {
-    .disclaimer {
-      bottom: inherit;
     }
   }
 }

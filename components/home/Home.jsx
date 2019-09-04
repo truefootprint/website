@@ -160,10 +160,16 @@ const Home = () => (
             </div>
           </div>
 
-          <div className={css.right} {...background("/static/tracker.png")}>
-            <p className={css.disclaimer}>
-              These graphs are for illustrative purposes only. Their data is not representative.
-            </p>
+          <div className={css.right}>
+            <div className={css.video_container}>
+              <video muted autoPlay loop>
+                <source src="/static/esg-score-dashboard.mp4" type="video/mp4" />
+              </video>
+
+              <p className={css.disclaimer}>
+                Graphs for illustrative purposes only. Based on real but incomplete data.
+              </p>
+            </div>
           </div>
         </section>
       </Target>
