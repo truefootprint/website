@@ -68,9 +68,11 @@ const Home = () => (
                 <p>
                   Many companies struggle to demonstrate the impact of their sustainability
                   investments. This starts with credible data. You have spent the money,
-                  but did the community project reach its goals? Did the road to the market get built,
-                  and are people better off as a result? Too often there are no answers.
+                  but did your sustainability initiative reach its goals? Are people
+                  better off? Is production more environmentally sustainable? To what
+                  extent have working conditions improved? Too often there are no answers.
                 </p>
+
               </div>
             </div>
           </div>
@@ -82,19 +84,20 @@ const Home = () => (
               <Heading>Solution</Heading>
 
               <p>
-              We work with the beneficiaries of your sustainability projects:
-              the residents of the rural mining villages where you are constructing roads;
-              the cocoa farmers whose children go to the new schools you’re paying for.
+              We work with people in local communities: the cocoa farmers you try to lift
+              out of poverty; the residents of the rural mining village where you are
+              constructing a road.
               </p>
 
               <p>
               Our technology empowers them to collect data and to take ownership of
               solutions to improve their lives.
+              The people at the base of your supply chain deliver the data you need
+              because it works for them.
               </p>
 
               <p>
-              The people at the base of your supply chain deliver the data you need
-              because it works for them.  It’s good for them and it’s good for you.
+              It’s good for them and it’s good for you.
               </p>
             </div>
           </div>
