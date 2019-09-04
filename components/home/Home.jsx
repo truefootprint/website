@@ -317,7 +317,7 @@ const Home = () => (
       </Target>
 
       <Target name="contact">
-        <section className={css.full_width}>
+        <section className={`${css.full_width} ${css.contact}`}>
           <div className={css.wrap}>
             <Heading>Contact</Heading>
 
@@ -333,8 +333,6 @@ const Home = () => (
           </div>
         </section>
       </Target>
-
-      <div className={css.spacer} />
     </div>
   </Layout>
 );

@@ -173,18 +173,8 @@
   padding-top: 5rem;
 }
 
-$bg: #efefef;
-
-.spacer {
-  margin-top: 8rem;
-  height: 50rem;
-
-  background:
-    linear-gradient(45deg, transparent 45%, $bg 50%, transparent 55%, transparent 100%),
-    linear-gradient(-45deg, transparent 45%, $bg 50%, transparent 55%, transparent 100%);
-  background-size: 10px 10px;
-
-  box-shadow: 0 0.5rem 0.5rem -0.5rem rgba(0, 0, 0, 0.2) inset;
+.contact {
+  min-height: 32rem;
 }
 
 @media (max-width: 60rem) {
@@ -196,10 +186,6 @@ $bg: #efefef;
 @media (max-width: 47rem) {
   .full_width {
     padding: 3rem 1.5rem;
-  }
-
-  .spacer {
-    display: none;
   }
 
   .panels {
