@@ -165,7 +165,7 @@ const Home = () => (
 
           <div className={css.right}>
             <div className={css.video_container}>
-              <video muted autoPlay loop>
+              <video muted autoPlay loop playsInline poster="/static/esg-score-dashboard-poster.png">
                 <source src="/static/esg-score-dashboard.mp4" type="video/mp4" />
               </video>
 
