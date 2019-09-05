@@ -1,7 +1,9 @@
+$height: 42.5rem;
+
 .background {
   margin-top: 7rem;
   width: 100%;
-  height: 42.5rem;
+  height: $height;
   max-height: 100%;
 
   background: #8c5137 url(/static/silhouette.jpg) no-repeat center;
@@ -30,7 +32,7 @@ $bg: rgba(0, 0, 0, 0.2);
 .foreground {
   margin-top: 7rem;
   width: 100%;
-  height: 58rem;
+  height: $height;
 
   position: relative;
   z-index: 0;
