@@ -1,6 +1,6 @@
 .nav_bar {
   width: 100%;
-  height: 7rem;
+  height: 8rem;
   background: white;
   box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.2);
 
@@ -14,7 +14,7 @@
 
   .right a {
     position: relative;
-    top: 0.6rem;
+    top: 1.9rem;
     margin-right: 3.5rem;
     text-decoration: none;
     text-transform: uppercase;
@@ -34,10 +34,12 @@
 
 @media (max-width: 60rem) {
   .nav_bar {
+    height: 6.5rem;
     justify-content: center;
   }
 
   .logo {
+    flex: none;
     zoom: 0.8;
   }
 

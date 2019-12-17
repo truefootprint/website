@@ -1,7 +1,7 @@
 $height: 42.5rem;
 
 .background {
-  margin-top: 7rem;
+  margin-top: 8rem;
   width: 100%;
   height: $height;
   max-height: 100%;
@@ -30,7 +30,7 @@ $bg: rgba(0, 0, 0, 0.2);
 }
 
 .foreground {
-  margin-top: 7rem;
+  margin-top: 8rem;
   width: 100%;
   height: $height;
 
@@ -53,6 +53,16 @@ $bg: rgba(0, 0, 0, 0.2);
   font-size: 4rem;
   color: white;
   margin-top: 5rem;
+}
+
+@media (max-width: 60rem) {
+  .background {
+    margin-top: 6.5rem;
+  }
+
+  .foreground {
+    margin-top: 6.5rem;
+  }
 }
 
 @media (max-width: 55rem) {

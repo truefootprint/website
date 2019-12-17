@@ -254,6 +254,15 @@ const Home = () => (
               </li>
             </ul>
           </Profile>
+
+          <Profile src="/static/christian.jpg" name="Christian Benigni" title="Advisor">
+            <ul>
+              <li>Co-founder GFP Juniper</li>
+              <li>Co-founder First Avenue Partners</li>
+              <li>Created the largest hedge fund franchise at the time in German-speaking Europe</li>
+              <li>Expert in creation, structuring and placement of financial products</li>
+            </ul>
+          </Profile>
         </div>
       </section>
 
