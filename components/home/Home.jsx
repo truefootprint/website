@@ -255,7 +255,7 @@ const Home = () => (
             </ul>
           </Profile>
 
-          <Profile src="/static/christian.jpg" name="Christian Benigni" title="Advisor">
+          <Profile src="/static/christian.jpg" name="Christian Benigni" title="Chief of Financial Products">
             <ul>
               <li>Co-founder GFP Juniper</li>
               <li>Co-founder First Avenue Partners</li>
