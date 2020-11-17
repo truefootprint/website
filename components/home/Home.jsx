@@ -312,7 +312,7 @@ const Home = () => (
 
       </section>
       <br/>
-      <section  className={css.side_by_side} style={{backgroundColor: "white"}}>
+      <section  className={css.side_by_side} style={{backgroundColor: "white", padding: "20px"}}>
           <div className={css.left}>
             <div>
               <Heading>COVID-19</Heading>
