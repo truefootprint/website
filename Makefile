@@ -17,6 +17,6 @@ deploy:
 		git add -A                                                        && \
 		git commit -m 'Deploy changes'                                    && \
 		git remote add origin git@github.com:truefootprint/website        && \
-		git push -f origin head:gh-pages                                  && \
+		git push -f origin master:gh-pages                                  && \
 		cd ..                                                             && \
 		rm -rf out

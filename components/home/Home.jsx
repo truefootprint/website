@@ -330,7 +330,7 @@ const Home = () => (
             </div>
           </div>
 
-          <div className={css.right} {...background("/static/covidmap.svg")} />
+          <div className={css.right} {...background("/static/covidmap.png")} />
         </section>
         <br/><br/><br/><br/>
       <Target name="press">
