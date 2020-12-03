@@ -13,6 +13,7 @@ const NavBar = () => (
       <Link to="investors" label="navbar-investors" activeClass={css.active}>Investors</Link>
       <Link to="downloads" label="navbar-downloads" activeClass={css.active}>Downloads</Link>
       <Link to="press" label="navbar-press" activeClass={css.active}>Press</Link>
+      <Link to="team" label="navbar-team" activeClass={css.active}>Team</Link>
       <Link to="contact" label="navbar-contact" activeClass={css.active}>Contact</Link>
     </div>
   </div>

@@ -209,130 +209,6 @@ const Home = () => (
           </div>
         </section>
       </Target>
-
-      <section className={`${css.full_width} ${css.team}`}>
-        <div className={css.wrap}>
-          <Heading>Team</Heading>
-        </div>
-      </section>
-
-      <section className={`${css.full_width} ${css.team}`}>
-        
-        <div className={`${css.side_by_side}`}>
-          <div className={css.left}>            
-              <Profile src="/static/fredrik.jpg" name="Fredrik Galtung" title="Chief Executive">
-                <ul>
-                  <li>
-                    Founded <a href="https://integrityaction.org/" target="_blank">Integrity Action</a>
-                  </li>
-                  <li>Worked with Google, Siemens, World Bank, <br/> Global Fund to Fight Aids, TB, Malaria</li>
-                  <li>
-                    First employee and Head of Research <br/> 
-                    at <a href="https://www.transparency.org.uk/" target="_blank">Transparency International</a>
-                  </li> 
-                  <li>
-                    <a href="https://www.ashoka.org/en-gb/fellow/fredrik-galtung" target="_blank">
-                      Ashoka Fellow
-                    </a>
-                  </li>
-                </ul>
-              </Profile>
-          </div>
-          <div className={css.right}>            
-            <Profile src="/static/edwin.jpg" name="Edwin Bos" title="Chief Product Officer">
-              <ul>
-                <li>
-                  Chief Innovation Officer
-                  at <a href="https://www.reevoo.com/en/" target="_blank">Reevoo</a>
-                </li>
-                <li>PhD in human-computer interaction, postdoc Stanford</li>
-                <li>Worked at Apple and Yahoo, Reevoo</li>
-                <li>Wikipedia contributor</li>
-              </ul>
-            </Profile>
-          </div>
-        </div>
-
-        <div className={`${css.side_by_side}`}>
-          <div className={css.left}>            
-              <Profile src="/static/chanda.jpeg" name="Chanda Pwapwa" title="Lead Engineer">
-                <ul>
-                  <li>Full stack developer</li>
-                  <li>
-                    Avid reader
-                  </li>
-                  <li>Has worked on distributed teams located in <br/> Cape Town, Singapore and London.</li>
-                </ul>
-              </Profile>
-          </div>
-          <div className={css.right}>            
-            <Profile src="/static/christian.jpg" name="Christian Benigni" title="Chief of Financial Products">
-              <ul>
-                <li>Co-founder GFP Juniper</li>
-                <li>Co-founder First Avenue Partners</li>
-                <li>Created the largest hedge fund franchise at <br/> the time in German-speaking Europe</li>
-                <li>Expert in creation, structuring and placement of financial products</li>
-              </ul>
-            </Profile>
-          </div>
-        </div>
-        <div className={`${css.side_by_side}`}>
-          <div className={css.left}>            
-              <Profile src="/static/Carly.jpeg" name="Carly Dryhurst-Smith" title="Designer">
-                <ul>
-                  <li>Designed for Reevoo, Topshop and NHS</li>
-                  <li>Founder agency With Bells On!</li>
-                  <li>Lead UX designer at VC Forward Partners</li>
-                </ul>
-              </Profile>
-          </div>
-          <div className={css.right}>            
-            <Profile src="/static/Heri.jpg" name="Heri Bitamala" title="Country Partner">
-              <ul>
-                <li>Country partner DR Congo</li>
-                <li>Founder CEO of CERC</li>
-                <li>Community monitoring expert</li>
-              </ul>
-            </Profile>
-          </div>
-        </div>
-
-        <div className={`${css.side_by_side}`}>
-          <div className={css.left}>            
-              <Profile src="/static/camara.jpeg" name="Pierre Camara" title="Country Partner">
-                <ul>
-                  <li>Country partner Guinea</li>
-                  <li>Field monitor at World Food Programme</li>
-                  <li>Président  Les Mêmes Droits pour Tous</li>
-                </ul>
-              </Profile>
-          </div>
-          <div  id="covid" className={css.right}>  </div>
-        </div>
-
-      </section>
-      <br/>
-      <section  className={css.side_by_side} style={{backgroundColor: "white", padding: "20px"}}>
-          <div className={css.left}>
-            <div>
-              <Heading>COVID-19</Heading>
-              <ul>
-                <li>We used our FieldApp to help with Covid-19</li>
-                <li>Launched in July 2020</li>
-                <li>90 local partners in 54 countries</li>
-                <li>Live in 25 countries</li>
-                <li>29 countries in process of setting up pilots</li>
-                <li>Results: All pilots showing safety issues: <br/>
-                -73% of users reported test kits not present at least once <br/>
-                -Over 250 reports of infected patients not being separated</li>
-                <li>9 Ministries of Health have signed MOUs in support of national scale-up plans</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className={css.right} {...background("/static/covidmap.png")} />
-        </section>
-        <br/><br/><br/><br/>
       <Target name="press">
         <section className={`${css.full_width} ${css.gradient}`}>
           <div className={css.wrap}>
@@ -400,7 +276,262 @@ const Home = () => (
           </div>
         </section>
       </Target>
+      <section  className={css.side_by_side} style={{backgroundColor: "white", padding: "20px"}}>
+        <div className={css.left}>
+          <div>
+            <Heading>COVID-19</Heading>
+            <ul>
+              <li>We used our FieldApp to help with Covid-19</li>
+              <li>Launched in July 2020</li>
+              <li>90 local partners in 54 countries</li>
+              <li>Live in 25 countries</li>
+              <li>29 countries in process of setting up pilots</li>
+              <li>Results: All pilots showing safety issues: <br/>
+              -73% of users reported test kits not present at least once <br/>
+              -Over 250 reports of infected patients not being separated</li>
+              <li>9 Ministries of Health have signed MOUs in support of national scale-up plans</li>
+            </ul>
+          </div>
+        </div>
 
+        <div className={css.right} {...background("/static/covidmap.png")} />
+      </section>
+      <br/><br/><br/><br/><br/>
+      <Target name="team">
+      <section className={`${css.full_width} ${css.team}`}>
+        <div className={css.wrap}>
+          <Heading>Team</Heading>
+        </div>
+      </section>
+      </Target>
+      <section className={`${css.full_width} ${css.team}`}>
+        
+        <div className={`${css.side_by_side}`}>
+          <div className={css.left}>            
+              <Profile src="/static/fredrik.jpg" name="Fredrik Galtung" title="Chief Executive">
+                <ul>
+                  <li>
+                    Founded <a href="https://integrityaction.org/" target="_blank">Integrity Action</a>
+                  </li>
+                  <li>Worked with Google, Siemens, World Bank, <br/> Global Fund to Fight Aids, TB, Malaria</li>
+                  <li>
+                    First employee and Head of Research <br/> 
+                    at <a href="https://www.transparency.org.uk/" target="_blank">Transparency International</a>
+                  </li> 
+                  <li>
+                    <a href="https://www.ashoka.org/en-gb/fellow/fredrik-galtung" target="_blank">
+                      Ashoka Fellow
+                    </a>
+                  </li>
+                </ul>
+              </Profile>
+          </div>
+          <div className={css.right}>            
+            <Profile src="/static/christian-color.png" name="Christian Benigni" title="Chief of Financial Products">
+              <ul>
+                <li>Co-founder GFP Juniper</li>
+                <li>Co-founder First Avenue Partners</li>
+                <li>Created the largest hedge fund franchise at <br/> the time in German-speaking Europe</li>
+                <li>Expert in creation, structuring and placement of financial products</li>
+              </ul>
+            </Profile>
+          </div>
+        </div>
+
+        <div className={`${css.side_by_side}`}>
+          <div className={css.left}>            
+            <Profile src="/static/edwin.jpg" name="Edwin Bos" title="Chief Product Officer">
+              <ul>
+                <li>
+                  Chief Innovation Officer
+                  at <a href="https://www.reevoo.com/en/" target="_blank">Reevoo</a>
+                </li>
+                <li>PhD in human-computer interaction, postdoc<br/>Stanford</li>
+                <li>Worked at Apple and Yahoo, Reevoo</li>
+                <li>Wikipedia contributor</li>
+              </ul>
+            </Profile>
+          </div>
+          <div className={css.right}>            
+              <Profile src="/static/chanda.jpeg" name="Chanda Pwapwa" title="Lead Engineer">
+                <ul>
+                  <li>Full stack developer</li>
+                  <li>
+                    Avid reader
+                  </li>
+                  <li>Has worked on distributed teams located in <br/> Cape Town, Singapore and London.</li>
+                </ul>
+              </Profile>
+          </div>          
+        </div>
+        <div className={`${css.side_by_side}`}>
+          <div className={css.left}>            
+              <Profile src="/static/Carly.jpeg" name="Carly Dryhurst-Smith" title="Designer">
+                <ul>
+                  <li>Designed for Reevoo, Topshop and NHS</li>
+                  <li>Founder agency With Bells On!</li>
+                  <li>Lead UX designer at VC Forward Partners</li>
+                </ul>
+              </Profile>
+          </div>
+          <div className={css.right}>
+            <Profile src="/static/audrey.JPG" name="Audrey de Garidel" title="Non-Executive Director">
+                <ul>
+                  <li>Facilitator of positive impact projects</li>
+                  <li>Co-founder, So Impact</li>
+                  <li>Worked at Agence Française de Développement, FMO, InfraVia Capital Partners, Latham & Watkins</li>
+                </ul>
+            </Profile> 
+          </div>
+        </div>
+
+        <div className={`${css.side_by_side}`}>
+          <div className={css.left}>  
+            <Profile src="/static/samuel.jpg" name="Samuel Niyomuremyi" title="Country Partner">
+              <ul>
+                <li>Country Partner Rwanda</li>
+                <li>Maternal health program coordinator<br/> at Rwanda Village community<br/> promoters(RVCP) organization.</li>
+                <li>Founder of stop covid19 campaign(SCC)<br/> project.</li>
+              </ul>
+            </Profile>            
+          </div>
+          <div className={css.right}>            
+              <Profile src="/static/Heri.jpg" name="Heri Bitamala" title="Country Partner">
+              <ul>
+                <li>Country partner DR Congo</li>
+                <li>Founder CEO of CERC</li>
+                <li>Community monitoring expert</li>
+              </ul>
+              </Profile>
+          </div> 
+        </div>
+
+
+        <div className={`${css.side_by_side}`}>
+          <div className={css.left}>            
+              <Profile src="/static/camara.jpeg" name="Pierre Camara" title="Country Partner">
+                <ul>
+                  <li>Country partner Guinea</li>
+                  <li>Field monitor at World Food Programme</li>
+                  <li>Président  Les Mêmes Droits pour Tous</li>
+                </ul>
+              </Profile>
+          </div>
+          <div id="covid" className={css.right}>            
+              <Profile src="/static/Floribert.jpg" name="Dr Floribert Kazingufu" title="Country Partner">
+                <ul>
+                  <li>Country Partner Burundi</li>
+                  <li>Founder of "Réseau des Églises Misssionnaires du Christ"</li>
+                  <li>Expert in community and people upliftment </li>
+                  <li>Founder of Peace University, Fondation Chirezi</li>
+                </ul>
+              </Profile>
+          </div> 
+        </div>
+
+        <div className={`${css.side_by_side}`}>
+          <div className={css.left}>            
+              <Profile src="/static/Isaac.jpg" name="Isaac Abamwizeye" title="Country Partner">
+                <ul>
+                  <li>Country Partner Rwanda</li>
+                  <li>CEO and Founder of Confidence of <br/> Success Academy</li>
+                  <li>Rwanda Volunteer in community to avoid <br/>human security issues and Covid-19</li>
+                </ul>
+              </Profile>
+          </div>
+          <div className={css.right}>            
+              <Profile src="/static/john.jpg" name="John Wabwire Shikuku" title="Country Partner">
+                <ul>
+                  <li>Country Partner Kenya</li>
+                  <li>Community health worker specialising in community health management of <br/>HIV/ TB, pregnant mothers and under 5 children</li>
+                  <li>Co-founder, Kenya Adolescent Youth Reproductive Health and HIV Network</li>
+                </ul>
+              </Profile>
+          </div> 
+        </div>
+
+        <div className={`${css.side_by_side}`}>
+          <div className={css.left}>            
+              <Profile src="/static/judith.jpeg" name="Judith Mutange" title="Country Partner">
+                <ul>
+                  <li>Country Partner Kenya</li>
+                  <li>Founding Director, <br/> Great Mercy Development Centre</li>
+                  <li>Mentors to vulnerable children and women</li>
+                  <li>Founded a school for accelerated learning <br/> from primary to high school</li>
+                </ul>
+              </Profile>
+          </div>
+          <div className={css.right}>            
+              <Profile src="/static/mike.jpg" name="Mike Tyson Oyola" title="Country Partner">
+                <ul>
+                  <li>Country Partner Kenya</li>
+                  <li>Programme Manager, Positive Engagement for All Programme</li>
+                  <li>Data collection using survey CTO, ODK and KOBO</li>
+                  <li>Psychotherapy counselling to persons affected by Covid-19</li>
+                </ul>
+              </Profile>
+          </div> 
+        </div>
+
+        <div className={`${css.side_by_side}`}>
+          <div className={css.left}>            
+              <Profile src="/static/rachel.jpeg" name="Rachel Uwizerwa" title="Country Partner">
+                <ul>
+                  <li>Country Partner Rwanda</li>
+                  <li>Founder and CEO of Ngoboka Project <br/> to help vulnerable
+                   single mothers and <br/> pregnant women who <br/> are affected by Covid-19 </li>
+                </ul>
+              </Profile>
+          </div>
+          <div className={css.right}>            
+              <Profile src="/static/richard.jpg" name="Richard Arinitwe" title="Country Partner">
+                <ul>
+                  <li>Country Partner Rwanda</li>
+                  <li>Founder and CEO at Mubuzima, a platform to raise health <br/> calamities awareness in local language</li>
+                  <li>Intern medical doctor at Kabgayi District Hospital</li>
+                </ul>
+              </Profile>
+          </div> 
+        </div>
+
+        <div className={`${css.side_by_side}`}>
+          <div className={css.left}>            
+              <Profile src="/static/Tarak.jpg" name="Dr Tarak Bahadur" title="Country Partner">
+                <ul>
+                  <li>Country Partner Nepal</li>
+                  <li>Visiting faculty, Kathmandu University</li>
+                  <li>Former Deputy Executive Director,<br/> Nepal Administrative Staff College</li>
+                </ul>
+              </Profile>
+          </div>
+          <div className={css.right}>            
+              <Profile src="/static/victor.jpeg" name="Victor Alex" title="Country Partner">
+                <ul>
+                  <li>Country Partner South Sudan</li>
+                  <li>Co-founder, African Youth Action Network (AYAN)</li>
+                  <li>Monitoring and evaluation specialist</li>
+                </ul>
+              </Profile>
+          </div> 
+        </div>        
+        <div className={`${css.side_by_side}`}>
+          <div className={css.left}>  
+              <Profile src="/static/jose.JPG" name="Jose Alves da Costa" title="Country Partner">
+                <ul>
+                  <li>Country Partner Timor Leste</li>
+                  <li>Co-founder and Executive Director, <br/>Luta Hamutuk</li> 
+                  <li>Member of the Consultative Council<br/> of the Ombusman</li> 
+                </ul>
+              </Profile>
+          </div>
+          <div className={css.right}>            
+             
+          </div> 
+        </div>
+
+      </section>
+      
+      
       <Target name="contact">
         <section className={`${css.full_width} ${css.contact}`}>
           <div className={css.wrap}>
