@@ -8,21 +8,30 @@ const TheSolutionOutcomeTracker = ({background}) => (
 <div className={css.left}>
   <div className={css.inner}>
     <Heading subheading="outcome tracker">OUR SOLUTIONS</Heading>
-
     <p>
-    Our solution: verifiable, comparable and industry-specific <b>outcome</b> data, in real-time.
-    </p>
+            Whether you’re a finance organisation, part of a global supply
+            chain, or a government body, we can help you improve your
+            sustainability and impact. Our approach is unique and proven:
+          </p>
 
-    <p>
-    We provide dashboards that allow investors to compare apples to
-    apples on Environmental, Social and Governance outcomes, such as:
-    </p>
-
-    <ul>
-      <li>Greenhouse gas emissions per tonne of product</li>
-      <li>Resolution rate of conflicts with the local community</li>
-      <li>Dozens more, tailored by sector</li>
-    </ul>
+          <ul>
+            <li>
+              We harness the knowledge of global workforces at the frontline of
+              production and service delivery…
+            </li>
+            <li>
+              …and positively engage them in delivering better outcomes and
+              impacts
+            </li>
+            <li>
+              In the process, we provide you with the richest possible
+              sustainability data.
+            </li>
+            <li>
+              This contributes to embedding sustainability into the DNA of your
+              organisation.
+            </li>
+          </ul>
   </div>
 </div>
 

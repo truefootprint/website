@@ -7,25 +7,24 @@ const Covid = ({background}) => (
     style={{ backgroundColor: "white", padding: "20px" }}
   >
     <div className={css.left}>
-      <div>
+      <div className={css.inner}>
         <Heading subheading="FieldApp">COVID-19</Heading>
         <ul>
-          <li>We used our FieldApp to help with Covid-19</li>
-          <li>Launched in July 2020</li>
-          <li>90 local partners in 54 countries</li>
-          <li>Live in 25 countries</li>
-          <li>29 countries in process of setting up pilots</li>
-          <li>
-            Results: All pilots showing safety issues: <br />
-            -73% of users reported test kits not present at least once{" "}
-            <br />
-            -Over 250 reports of infected patients not being separated
-          </li>
-          <li>
-            9 Ministries of Health have signed MOUs in support of national
-            scale-up plans
-          </li>
-        </ul>
+              <li>
+                We used our FieldApp to help improve public health safety during
+                Covid-19
+              </li>
+              <li>Pilots live in 26 countries</li>
+              <li>
+                Results: All pilots flagged up important safety issues: <br />
+                - 73% of users reported test kits not present when needed <br />
+                - Over 400 reports of infected patients not being separated
+              </li>
+              <li>
+                9 Ministries of Health have signed a Memorandum of Understanding
+                in support of national scale-up plans
+              </li>
+            </ul>
       </div>
     </div>
 

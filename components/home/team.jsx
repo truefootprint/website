@@ -128,7 +128,7 @@ const Team = () => (
           </div>
           <div className={css.right}>
             <Profile
-              src="/static/d1.jpg"
+              src="/static/d2.jpg"
               name="Daisy Barlett"
               title="Project Coordinator"
             >
@@ -136,7 +136,7 @@ const Team = () => (
                 <li>Former Program Coordinator at Hospice Africa Uganda </li>
                 <li>
                   Experience in PR at Weber Shandwick Paris, for Twitter,
-                  Motorola and Rolls-Royce Motor Cars
+                  Motorola <br/> and Rolls-Royce Motor Cars
                 </li>
                 <li>
                   Master's in Trilingual Negotiation & Intercultural Management
