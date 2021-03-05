@@ -1,8 +1,9 @@
 import Head from "next/head";
 import ReactGA from "react-ga";
 
-import "./reset.scss";
-import "./typography.scss";
+// import "./reset.module.scss";
+// import "./typography.module.scss";
+
 
 ReactGA.initialize("UA-144174517-1");
 ReactGA.pageview("/");

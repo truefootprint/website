@@ -1,3 +1,21 @@
+.no_card_border{
+  border: none;
+}
+
+.align_link {
+  text-align: center;
+  background-color: white;
+}
+
+.partnersColor {
+  color: gray;
+}
+
+.partnersSize {
+  font-size: 25px;
+  color:gray;
+}
+
 .content {
   position: relative;
   background: white;
@@ -159,7 +177,7 @@
 
   .inner {
     padding: 4rem 3.5rem 8rem 3.5rem;
-    max-width: 26.5rem;
+    max-width: 40.5rem;
   }
 
   p {

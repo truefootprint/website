@@ -1,4 +1,4 @@
-import css from "./styles.scss";
+import css from "./styles.module.scss";
 
 const Logo = () => (
   <svg className={css.logo} width="251.7" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 204.41 88.69">

@@ -1,0 +1,229 @@
+.content {
+    position: relative;
+    background: white;
+  
+    ul {
+      list-style-type: disc;
+      margin-left: 2.45rem;
+  
+      &.numbered {
+        list-style-type: decimal;
+      }
+    }
+  
+    li {
+      margin-top: 1.5rem;
+    }
+  
+    h4 {
+      font-size: 1.5rem;
+      margin-top: 3rem;
+    }
+  
+    section.gradient {
+      background: linear-gradient(white, #f7f7f7);
+    }
+  }
+  
+  .timeline {
+    border-left: 3px solid #ccc;
+    padding-top: 1rem;
+    margin-top: 4rem;
+  
+    time {
+      color: #4A8F72;
+      font-size: 1.2rem;
+  
+      &:before {
+        content: '';
+        width: 1.5rem;
+        display: block;
+        border-top: 3px solid #ccc;
+        position: relative;
+        left: -2.5rem;
+        top: 0.8rem;
+      }
+    }
+  
+    a {
+      color: #44f;
+    }
+  
+    .item {
+      padding: 0 0 3rem 2.5rem;
+    }
+  
+    blockquote {
+      max-width: 30rem;
+      margin: 2rem 0 0 2rem;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+  }
+  
+  .wrap {
+    max-width: 60rem;
+    margin: auto;
+  }
+  
+  .full_width {
+    padding: 4rem 3.5rem 8rem 3.5rem;
+    font-size: 17px;
+  
+    :global(.Heading) {
+      text-align: center;
+    }
+  
+    p {
+      margin-top: 2.5rem;
+    }
+  }
+  
+  .panels {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  
+    .panel {
+      height: 27.3rem;
+      flex: 1;
+      background: #f7f7f7;
+  
+      &:first-child {
+        margin-right: 0.75rem;
+      }
+  
+      &:last-child {
+        margin-left: 0.75rem;
+      }
+  
+      .background {
+        width: 100%;
+        height: 14rem;
+        background-size: cover;
+      }
+  
+      h3, p {
+        padding: 0 1.5rem;
+      }
+  
+      h3 {
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #3D5975;
+        margin-top: 1.5rem;
+      }
+  
+      p {
+        font-size: 15px;
+        margin-top: 1rem;
+      }
+    }
+  }
+  
+  .side_by_side {
+    display: flex;
+    background: #fafafa;
+  
+    .left, .right {
+      flex: 1;
+      display: flex;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  
+    .left {
+      justify-content: flex-end;
+      background-position: right center;
+    }
+  
+    .right {
+      justify-content: flex-start;
+      background-position: left center;
+      position: relative;
+  
+      .video_container {
+        margin-top: 4rem;
+  
+        video {
+          max-width: 100%;
+          max-height: 39rem;
+        }
+  
+        .disclaimer {
+          margin: 1rem 2rem 2rem 2rem;
+        }
+      }
+    }
+  
+    .inner {
+      padding: 4rem 3.5rem 8rem 3.5rem;
+      max-width: 26.5rem;
+    }
+  
+    p {
+      margin-top: 2.5rem;
+    }
+  
+    .disclaimer {
+      margin-top: 1rem;
+      color: #666;
+    }
+  }
+  
+  .team {
+    padding-bottom: 0;
+  }
+  
+  .copyright {
+    font-size: 15px;
+    color: black;
+    padding-top: 5rem;
+  }
+  
+  .contact {
+    min-height: 32rem;
+  }
+  
+  @media (max-width: 60rem) {
+    .panel {
+      height: 33rem !important;
+    }
+  }
+  
+  @media (max-width: 47rem) {
+    .full_width {
+      padding: 3rem 1.5rem;
+    }
+  
+    .panels {
+      display: block;
+      text-align: center;
+    }
+  
+    .panel {
+      margin: 0 0 2rem 0 !important;
+      max-width: 25rem;
+      display: inline-block;
+      text-align: left;
+    }
+  
+    .side_by_side {
+      display: block;
+  
+      :global(.Heading) {
+        text-align: center;
+      }
+  
+      .inner {
+        padding: 3rem 1.5rem;
+        max-width: none;
+      }
+  
+      .left, .right {
+        min-height: 15rem;
+      }
+    }
+  }
+  

@@ -1,6 +1,6 @@
 import Icon from "../icon";
 import { Link } from "../scroll";
-import css from "./styles.scss";
+import css from "./styles.module.scss";
 
 const Hero = () => (
   <div className={css.hero}>

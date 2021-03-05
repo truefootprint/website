@@ -1,9 +1,9 @@
-import css from "./styles.scss";
+import css from "./styles.module.scss";
 
 const Profile = ({ src, name, title, children }) => (
   <div className={css.profile}>
     <div className={css.portrait}>
-      <img src={src} />
+      <img src={src} width={150} height={160}/>
 
       <div className={css.under}>
         <p className={css.name}>{name}</p>

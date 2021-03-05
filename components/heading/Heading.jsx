@@ -1,4 +1,5 @@
-import css from "./styles.scss";
+import css from "./styles.module.scss";
+
 
 const Heading = ({ className, subheading, children }) => (
   <div className={`Heading ${className}`}>

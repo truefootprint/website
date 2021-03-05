@@ -1,6 +1,6 @@
 import Logo from "../logo";
 import { Link } from "../scroll";
-import css from "./styles.scss";
+import css from "./styles.module.scss";
 
 const NavBar = () => (
   <div className={css.nav_bar}>
@@ -9,8 +9,8 @@ const NavBar = () => (
     </div>
 
     <div className={css.right}>
-      <Link to="companies" label="navbar-companies" activeClass={css.active}>Companies</Link>
-      <Link to="investors" label="navbar-investors" activeClass={css.active}>Investors</Link>
+      <Link to="approach" label="navbar-approach" activeClass={css.active}>Approach</Link>
+      <Link to="solutions" label="navbar-solutions" activeClass={css.active}>Solutions</Link>
       <Link to="downloads" label="navbar-downloads" activeClass={css.active}>Downloads</Link>
       <Link to="press" label="navbar-press" activeClass={css.active}>Press</Link>
       <Link to="team" label="navbar-team" activeClass={css.active}>Team</Link>

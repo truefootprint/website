@@ -5,11 +5,22 @@ import Heading from "../heading";
 import Report from "../report";
 import Profile from "../profile";
 import { Link, Target } from "../scroll";
-import css from "./styles.scss";
+import css from "./styles.module.scss";
+import Approach from "./approach";
+import TheProblemCompanies from "./the_problem_companies";
+import TheProblemInvestors from "./the_problem_investors";
+import TheSolution from "./the_solution";
+import Press from "./press";
+import Scorecard from "./scorecard";
+import Covid from "./covid";
+import Team from "./team";
+import News from "./news";
+import TheSolutionOutcomeTracker from "./the_solution_outcome_tracker";
+import CountryPartners from "./country_partners";
+import Advisory from "./advisory";
+import CorpPartners from "./corp_partners";
 
-const background = (src) => (
-  { style: { backgroundImage: `url(${src})` } }
-);
+const background = (src) => ({ style: { backgroundImage: `url(${src})` } });
 
 const Home = () => (
   <Layout>
@@ -19,519 +30,33 @@ const Home = () => (
     <Hero />
 
     <div className={css.content}>
-      <section className={`${css.full_width} ${css.gradient}`}>
-        <div className={css.wrap}>
-          <Heading>Our Approach</Heading>
-
-          <p>
-            We believe that data helps solve many sustainability problems.
-            We help two types of stakeholders:
-          </p>
-
-          <ul className={css.numbered}>
-            <li>
-              <Link to="companies" label="approach-companies">companies</Link> that
-              invest in the sustainability of their supply chain
-            </li>
-
-            <li>
-              <Link to="investors" label="approach-investors">investors</Link> seeking
-              to make a positive impact.
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <Target name="companies">
-        <section className={css.full_width}>
-          <div className={css.wrap}>
-            <Heading subheading="for companies">The Problem</Heading>
-
-            <div className={css.panels}>
-              <div className={css.panel}>
-                <div className={css.background} {...background("/static/planning.jpg")} />
-
-                <h3>Lots of activity</h3>
-
-                <p>
-                  From cocoa to mining, cotton to banking, shipping to computing:
-                  across all industries companies are investing in the sustainability
-                  of their supply chains for the planet, for people and for communities.
-                </p>
-              </div>
-
-              <div className={css.panel}>
-                <div className={css.background} {...background("/static/driving.jpg")} />
-
-                <h3>But does it work?</h3>
-
-                <p>
-                  Many companies struggle to demonstrate the impact of their sustainability
-                  investments. This starts with credible data. You have spent the money,
-                  but did your sustainability initiative reach its goals? Are people
-                  better off? Is production more environmentally sustainable? To what
-                  extent have working conditions improved? Too often there are no answers.
-                </p>
-
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className={css.side_by_side}>
-          <div className={css.left}>
-            <div className={css.inner}>
-              <Heading>Solution</Heading>
-
-              <p>
-              We work with people in local communities: the cocoa farmers you try to lift
-              out of poverty; the residents of the rural mining village where you are
-              constructing a road.
-              </p>
-
-              <p>
-              Our technology empowers them to collect data and to take ownership of
-              solutions to improve their lives.
-              The people at the base of your supply chain deliver the data you need
-              because it works for them.
-              </p>
-
-              <p>
-              It’s good for them and it’s good for you.
-              </p>
-            </div>
-          </div>
-
-          <div className={css.right} {...background("/static/working.jpg")} />
-        </section>
+      <Target name="approach">
+        <Approach />
       </Target>
-
-      <Target name="investors">
-        <section className={css.full_width}>
-          <div className={css.wrap}>
-            <Heading subheading="for investors">The Problem</Heading>
-
-            <div className={css.panels}>
-              <div className={css.panel}>
-                <div className={css.background} {...background("/static/classroom.jpg")} />
-
-                <h3>Poor reporting</h3>
-
-                <p>
-                  More and more companies report sustainability numbers but are
-                  they making a difference? They may have spent x amount of money
-                  or trained people for y hours, but what impact did that have?
-                  What is really behind the numbers?
-                </p>
-              </div>
-
-              <div className={css.panel}>
-                <div className={css.background} {...background("/static/fruit.jpg")} />
-
-                <h3>Difficult to compare</h3>
-
-                <p>
-                  It’s hard to compare different companies, especially when
-                  absolute numbers will obviously be higher for larger companies
-                  than smaller ones. This leaves investors in the dark when trying
-                  to compare apples to apples.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className={css.side_by_side}>
-          <div className={css.left}>
-            <div className={css.inner}>
-              <Heading>Solution</Heading>
-
-              <p>
-              Our solution: verifiable, comparable and industry-specific <b>outcome</b> data, in real-time.
-              </p>
-
-              <p>
-              We provide dashboards that allow investors to compare apples to
-              apples on Environmental, Social and Governance outcomes, such as:
-              </p>
-
-              <ul>
-                <li>Greenhouse gas emissions per tonne of product</li>
-                <li>Resolution rate of conflicts with the local community</li>
-                <li>Dozens more, tailored by sector</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className={css.right}>
-            <div className={css.video_container}>
-              <video muted autoPlay loop playsInline poster="/static/esg-score-dashboard-poster.png">
-                <source src="/static/esg-score-dashboard.mp4" type="video/mp4" />
-              </video>
-
-              <p className={css.disclaimer}>
-                Graphs for illustrative purposes only. Based on real but incomplete data.
-              </p>
-            </div>
-          </div>
-        </section>
+      <Target name="solutions">
+        <TheSolution background={background} />
       </Target>
-
+      <Covid background={background} />
+      <TheSolutionOutcomeTracker />
 
       <Target name="downloads">
-        <section className={`${css.full_width} ${css.gradient}`}>
-          <div className={css.wrap}>
-            <Heading>Scorecards</Heading>
-
-            <p>
-              We have analysed sustainability and annual reports in key industries.
-              We have found that they do not report enough on the <b>outcomes</b> of sustainability efforts.
-              Our aim is to help companies be strategic and impactful in their reporting on sustainability.
-            </p>
-
-            <p>
-              You can download our free reports:
-            </p>
-
-            <ul>
-              <li>
-                <Report label="Agribusiness" filename="01-agribusiness-sustainability-report-2019.pdf" />
-              </li>
-
-              <li>
-                <Report label="Cocoa, Coffee, Tea" filename="02-cocoa-coffee-tea-sustainability-report-2019.pdf" />
-              </li>
-
-              <li>
-                <Report label="Mining" filename="03-mining-sustainability-report-2019.pdf" />
-              </li>
-            </ul>
-          </div>
-        </section>
+        <Scorecard />
       </Target>
       <Target name="press">
-        <section className={`${css.full_width} ${css.gradient}`}>
-          <div className={css.wrap}>
-            <Heading>Press</Heading>
-
-            <div className={css.timeline}>
-              <div className={css.item}>
-                <time>23 July 2019</time>
-
-                <p>
-                  Quote from our CEO Fredrik Galtung in <a
-                    href="https://www.theguardian.com/business/2019/jul/23/fairtrade-ethical-certification-supermarkets-sainsburys" target="_blank">
-                  The Guardian’s
-                  </a> long read "Is fair trade finished?"
-                </p>
-
-                <blockquote>
-                  “If Fairtrade producers could show that their farmers were 10
-                  or 20 years younger on average ... that would be a massive
-                  advantage. But we’re unable to see all this.”
-                </blockquote>
-              </div>
-
-              <div className={css.item}>
-                <time>20 June 2019</time>
-                <p>
-                  In a podcast
-                  with <a href="https://soundcloud.com/breakthechainpodcast/measuring-outcomes-not-outputs" target="_blank">
-                    Break the Chain
-                  </a>,
-                  Fredrik spoke about inputs and outputs versus outcomes and impact.
-                </p>
-              </div>
-
-              <div className={css.item}>
-                <time>10 May 2019</time>
-
-                <p>
-                Fredrik was interviewed
-                by <a href="https://anchor.fm/the-new-ism/episodes/S2-E2-Fredrik-Galtung-e40594" target="_blank">
-                  The New Ism
-                </a>,
-                talking about how bottom-up measurement and empowerment is key in sustainability.
-                </p>
-              </div>
-
-              <div className={css.item}>
-                <time>29 March 2019</time>
-
-                <p>
-                Quote from <a href="https://www.miningweekly.com/article/mining-stakeholders-unable-to-assessthe-effectiveness-of-sustainability-investments-analyst-2019-03-29" target="_blank">
-                  Mining Weekly
-                </a> on TrueFootprint’s mining industry Scorecard:
-                </p>
-
-                <blockquote>
-                  “governments, investors and customers have no way at present
-                  of assessing the effectiveness of key business sustainability
-                  investments, which means that some companies are not getting
-                  credit for the work they are doing and the social and
-                  economic value they create.”
-                </blockquote>
-              </div>
-            </div>
-          </div>
-        </section>
+        <Press />
       </Target>
-      <section  className={css.side_by_side} style={{backgroundColor: "white", padding: "20px"}}>
-        <div className={css.left}>
-          <div>
-            <Heading>COVID-19</Heading>
-            <ul>
-              <li>We used our FieldApp to help with Covid-19</li>
-              <li>Launched in July 2020</li>
-              <li>90 local partners in 54 countries</li>
-              <li>Live in 25 countries</li>
-              <li>29 countries in process of setting up pilots</li>
-              <li>Results: All pilots showing safety issues: <br/>
-              -73% of users reported test kits not present at least once <br/>
-              -Over 250 reports of infected patients not being separated</li>
-              <li>9 Ministries of Health have signed MOUs in support of national scale-up plans</li>
-            </ul>
-          </div>
-        </div>
-
-        <div className={css.right} {...background("/static/covidmap.png")} />
-      </section>
-      <br/><br/><br/><br/><br/>
+      <News />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <Target name="team">
-      <section className={`${css.full_width} ${css.team}`}>
-        <div className={css.wrap}>
-          <Heading>Team</Heading>
-        </div>
-      </section>
+        <Team />
       </Target>
-      <section className={`${css.full_width} ${css.team}`}>
-        
-        <div className={`${css.side_by_side}`}>
-          <div className={css.left}>            
-              <Profile src="/static/fredrik.jpg" name="Fredrik Galtung" title="Chief Executive">
-                <ul>
-                  <li>
-                    Founded <a href="https://integrityaction.org/" target="_blank">Integrity Action</a>
-                  </li>
-                  <li>Worked with Google, Siemens, World Bank, <br/> Global Fund to Fight Aids, TB, Malaria</li>
-                  <li>
-                    First employee and Head of Research <br/> 
-                    at <a href="https://www.transparency.org.uk/" target="_blank">Transparency International</a>
-                  </li> 
-                  <li>
-                    <a href="https://www.ashoka.org/en-gb/fellow/fredrik-galtung" target="_blank">
-                      Ashoka Fellow
-                    </a>
-                  </li>
-                </ul>
-              </Profile>
-          </div>
-          <div className={css.right}>            
-            <Profile src="/static/christian-color.png" name="Christian Benigni" title="Chief of Financial Products">
-              <ul>
-                <li>Co-founder GFP Juniper</li>
-                <li>Co-founder First Avenue Partners</li>
-                <li>Created the largest hedge fund franchise at <br/> the time in German-speaking Europe</li>
-                <li>Expert in creation, structuring and placement of financial products</li>
-              </ul>
-            </Profile>
-          </div>
-        </div>
-
-        <div className={`${css.side_by_side}`}>
-          <div className={css.left}>            
-            <Profile src="/static/edwin.jpg" name="Edwin Bos" title="Chief Product Officer">
-              <ul>
-                <li>
-                  Chief Innovation Officer
-                  at <a href="https://www.reevoo.com/en/" target="_blank">Reevoo</a>
-                </li>
-                <li>PhD in human-computer interaction, postdoc<br/>Stanford</li>
-                <li>Worked at Apple and Yahoo, Reevoo</li>
-                <li>Wikipedia contributor</li>
-              </ul>
-            </Profile>
-          </div>
-          <div className={css.right}>            
-              <Profile src="/static/chanda.jpeg" name="Chanda Pwapwa" title="Lead Engineer">
-                <ul>
-                  <li>Full stack developer</li>
-                  <li>
-                    Avid reader
-                  </li>
-                  <li>Has worked on distributed teams located in <br/> Cape Town, Singapore and London.</li>
-                </ul>
-              </Profile>
-          </div>          
-        </div>
-        <div className={`${css.side_by_side}`}>
-          <div className={css.left}>            
-              <Profile src="/static/Carly.jpeg" name="Carly Dryhurst-Smith" title="Designer">
-                <ul>
-                  <li>Designed for Reevoo, Topshop and NHS</li>
-                  <li>Founder agency With Bells On!</li>
-                  <li>Lead UX designer at VC Forward Partners</li>
-                </ul>
-              </Profile>
-          </div>
-          <div className={css.right}>
-            <Profile src="/static/audrey.JPG" name="Audrey de Garidel" title="Non-Executive Director">
-                <ul>
-                  <li>Facilitator of positive impact projects</li>
-                  <li>Co-founder, So Impact</li>
-                  <li>Worked at Agence Française de Développement, FMO, InfraVia Capital Partners, Latham & Watkins</li>
-                </ul>
-            </Profile> 
-          </div>
-        </div>
-
-        <div className={`${css.side_by_side}`}>
-          <div className={css.left}>  
-            <Profile src="/static/samuel.jpg" name="Samuel Niyomuremyi" title="Country Partner">
-              <ul>
-                <li>Country Partner Rwanda</li>
-                <li>Maternal health program coordinator<br/> at Rwanda Village community<br/> promoters(RVCP) organization.</li>
-                <li>Founder of stop covid19 campaign(SCC)<br/> project.</li>
-              </ul>
-            </Profile>            
-          </div>
-          <div className={css.right}>            
-              <Profile src="/static/Heri.jpg" name="Heri Bitamala" title="Country Partner">
-              <ul>
-                <li>Country partner DR Congo</li>
-                <li>Founder CEO of CERC</li>
-                <li>Community monitoring expert</li>
-              </ul>
-              </Profile>
-          </div> 
-        </div>
-
-
-        <div className={`${css.side_by_side}`}>
-          <div className={css.left}>            
-              <Profile src="/static/camara.jpeg" name="Pierre Camara" title="Country Partner">
-                <ul>
-                  <li>Country partner Guinea</li>
-                  <li>Field monitor at World Food Programme</li>
-                  <li>Président  Les Mêmes Droits pour Tous</li>
-                </ul>
-              </Profile>
-          </div>
-          <div id="covid" className={css.right}>            
-              <Profile src="/static/Floribert.jpg" name="Dr Floribert Kazingufu" title="Country Partner">
-                <ul>
-                  <li>Country Partner Burundi</li>
-                  <li>Founder of "Réseau des Églises Misssionnaires du Christ"</li>
-                  <li>Expert in community and people upliftment </li>
-                  <li>Founder of Peace University, Fondation Chirezi</li>
-                </ul>
-              </Profile>
-          </div> 
-        </div>
-
-        <div className={`${css.side_by_side}`}>
-          <div className={css.left}>            
-              <Profile src="/static/Isaac.jpg" name="Isaac Abamwizeye" title="Country Partner">
-                <ul>
-                  <li>Country Partner Rwanda</li>
-                  <li>CEO and Founder of Confidence of <br/> Success Academy</li>
-                  <li>Rwanda Volunteer in community to avoid <br/>human security issues and Covid-19</li>
-                </ul>
-              </Profile>
-          </div>
-          <div className={css.right}>            
-              <Profile src="/static/john.jpg" name="John Wabwire Shikuku" title="Country Partner">
-                <ul>
-                  <li>Country Partner Kenya</li>
-                  <li>Community health worker specialising in community health management of <br/>HIV/ TB, pregnant mothers and under 5 children</li>
-                  <li>Co-founder, Kenya Adolescent Youth Reproductive Health and HIV Network</li>
-                </ul>
-              </Profile>
-          </div> 
-        </div>
-
-        <div className={`${css.side_by_side}`}>
-          <div className={css.left}>            
-              <Profile src="/static/judith.jpeg" name="Judith Mutange" title="Country Partner">
-                <ul>
-                  <li>Country Partner Kenya</li>
-                  <li>Founding Director, <br/> Great Mercy Development Centre</li>
-                  <li>Mentors to vulnerable children and women</li>
-                  <li>Founded a school for accelerated learning <br/> from primary to high school</li>
-                </ul>
-              </Profile>
-          </div>
-          <div className={css.right}>            
-              <Profile src="/static/mike.jpg" name="Mike Tyson Oyola" title="Country Partner">
-                <ul>
-                  <li>Country Partner Kenya</li>
-                  <li>Programme Manager, Positive Engagement for All Programme</li>
-                  <li>Data collection using survey CTO, ODK and KOBO</li>
-                  <li>Psychotherapy counselling to persons affected by Covid-19</li>
-                </ul>
-              </Profile>
-          </div> 
-        </div>
-
-        <div className={`${css.side_by_side}`}>
-          <div className={css.left}>            
-              <Profile src="/static/rachel.jpeg" name="Rachel Uwizerwa" title="Country Partner">
-                <ul>
-                  <li>Country Partner Rwanda</li>
-                  <li>Founder and CEO of Ngoboka Project <br/> to help vulnerable
-                   single mothers and <br/> pregnant women who <br/> are affected by Covid-19 </li>
-                </ul>
-              </Profile>
-          </div>
-          <div className={css.right}>            
-              <Profile src="/static/richard.jpg" name="Richard Arinitwe" title="Country Partner">
-                <ul>
-                  <li>Country Partner Rwanda</li>
-                  <li>Founder and CEO at Mubuzima, a platform to raise health <br/> calamities awareness in local language</li>
-                  <li>Intern medical doctor at Kabgayi District Hospital</li>
-                </ul>
-              </Profile>
-          </div> 
-        </div>
-
-        <div className={`${css.side_by_side}`}>
-          <div className={css.left}>            
-              <Profile src="/static/Tarak.jpg" name="Dr Tarak Bahadur" title="Country Partner">
-                <ul>
-                  <li>Country Partner Nepal</li>
-                  <li>Visiting faculty, Kathmandu University</li>
-                  <li>Former Deputy Executive Director,<br/> Nepal Administrative Staff College</li>
-                </ul>
-              </Profile>
-          </div>
-          <div className={css.right}>            
-              <Profile src="/static/victor.jpeg" name="Victor Alex" title="Country Partner">
-                <ul>
-                  <li>Country Partner South Sudan</li>
-                  <li>Co-founder, African Youth Action Network (AYAN)</li>
-                  <li>Monitoring and evaluation specialist</li>
-                </ul>
-              </Profile>
-          </div> 
-        </div>        
-        <div className={`${css.side_by_side}`}>
-          <div className={css.left}>  
-              <Profile src="/static/jose.JPG" name="Jose Alves da Costa" title="Country Partner">
-                <ul>
-                  <li>Country Partner Timor Leste</li>
-                  <li>Co-founder and Executive Director, <br/>Luta Hamutuk</li> 
-                  <li>Member of the Consultative Council<br/> of the Ombusman</li> 
-                </ul>
-              </Profile>
-          </div>
-          <div className={css.right}>            
-             
-          </div> 
-        </div>
-
-      </section>
-      
-      
+      <CountryPartners />
+      <Advisory />
+      <CorpPartners />
       <Target name="contact">
         <section className={`${css.full_width} ${css.contact}`}>
           <div className={css.wrap}>
@@ -540,7 +65,9 @@ const Home = () => (
             <h4>Inquiries</h4>
 
             <p>
-              For any inquiries, questions or commendations, please email us at <a href="mailto:info@truefootprint.com">info@truefootprint.com</a>.
+              For any inquiries, questions or commendations, please email us at{" "}
+              <a href="mailto:info@truefootprint.com">info@truefootprint.com</a>
+              .
             </p>
 
             <p className={css.copyright}>
