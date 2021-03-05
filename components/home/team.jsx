@@ -107,6 +107,46 @@ const Team = () => (
       </div>
     </div>
     <div className={`${css.side_by_side}`}>
+          <div className={css.left}>
+            <Profile
+              src="/static/jackie.jpg"
+              name="Jackie Acaa"
+              title="Rural Development Specialist"
+            >
+              <ul>
+                <li>
+                  Agriculturalist, Master Trainer in FFS
+                  <br /> methodology
+                </li>
+                <li>
+                  Former Program Coordinator with Sasakawa <br /> Global 2000
+                  Uganda
+                </li>
+                <li>Volunteer with Field of Hope</li>
+              </ul>
+            </Profile>
+          </div>
+          <div className={css.right}>
+            <Profile
+              src="/static/d1.jpg"
+              name="Daisy Barlett"
+              title="Project Coordinator"
+            >
+              <ul>
+                <li>Former Program Coordinator at Hospice Africa Uganda </li>
+                <li>
+                  Experience in PR at Weber Shandwick Paris, for Twitter,
+                  Motorola and Rolls-Royce Motor Cars
+                </li>
+                <li>
+                  Master's in Trilingual Negotiation & Intercultural Management
+                </li>
+                <li>Avid Traveler</li>
+              </ul>
+            </Profile>
+          </div>
+        </div>
+    <div className={`${css.side_by_side}`}>
       <div className={css.left}>
         <Profile
           src="/static/Carly.jpeg"

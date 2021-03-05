@@ -10,11 +10,10 @@ const Hero = () => (
 
     <div className={css.foreground}>
       <h3 className={css.text}>
-        <div>We help you</div>
-        <div>achieve</div>
-        <div>true and improved</div>
-        <div>sustainability</div>
-        <div>results</div>
+        <div>Harnessing</div>
+        <div>grassroots ingenuity</div>
+        <div>for your </div>
+        <div>sustainable future</div>
       </h3>
     </div>
   </div>
