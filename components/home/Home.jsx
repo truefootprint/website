@@ -18,6 +18,7 @@ import News from "./news";
 import TheSolutionOutcomeTracker from "./the_solution_outcome_tracker";
 import CountryPartners from "./country_partners";
 import Advisory from "./advisory";
+import { Container, Row, Col } from "react-bootstrap";
 import CorpPartners from "./corp_partners";
 
 const background = (src) => ({ style: { backgroundImage: `url(${src})` } });
@@ -26,10 +27,11 @@ const Home = () => (
   <Layout>
     <Target name="top" />
 
-    <NavBar />
     <Hero />
-
     <div className={css.content}>
+    <NavBar />
+   
+
       <Target name="approach">
         <Approach />
       </Target>

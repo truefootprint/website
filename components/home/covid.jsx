@@ -28,7 +28,7 @@ const Covid = ({background}) => (
       </div>
     </div>
 
-    <div className={css.right} {...background("/static/covidmap.png")} />
+    <div className={css.right} {...background("/static/mapcovid.png")} />
   </section>
 );
 

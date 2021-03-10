@@ -1,8 +1,10 @@
 import Logo from "../logo";
 import { Link } from "../scroll";
 import css from "./styles.module.scss";
+import { Container, Row, Col } from "react-bootstrap";
 
 const NavBar = () => (
+
   <div className={css.nav_bar}>
     <div className={css.logo}>
       <Link to="top" label="navbar-logo"><Logo /></Link>

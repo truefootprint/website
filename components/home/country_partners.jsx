@@ -3,24 +3,27 @@ import Profile from "../profile";
 import css from "./styles.module.scss";
 
 const CountryPartners = () => (
-  
-    <div>
-      <section className={css.wrap}>
-      <h4 className={css.partnersColor}>
-      We have country partners in the following countries:<br/>
-        DR Congo, Kenya, South Sudan, Nepal, Timor Leste, Rwanda, Burundi, Guinea.
-      </h4>
-      <br/>
-      </section>
-      <Accordion>
-        <Card className={css.no_card_border}>
-          <Card.Header className={css.align_link}>
-            <Accordion.Toggle as={Button} variant="link" eventKey="0">
-              <h3 className={css.partnersSize}>Meet our country partners...</h3>
-            </Accordion.Toggle>
-          </Card.Header>
-          <Accordion.Collapse eventKey="0">
-            <Card.Body>
+  <div>
+    <section className={css.wrap}>
+      <h4 className={css.partnersColor}>COUNTRY PARTNERS</h4>
+      <br />
+      <p className={css.partnersSize}>
+        We have country partners in the following countries:
+        <br />
+        DR Congo, Kenya, South Sudan, Nepal, Timor Leste, Rwanda, Burundi,
+        Guinea.
+      </p>
+      <br />
+    </section>
+    <Accordion>
+      <Card className={css.no_card_border}>
+        <Card.Header>
+          <Accordion.Toggle as={Button} variant="link" eventKey="0">
+            <h3 className={css.partnersSize}>Meet our country partners...</h3>
+          </Accordion.Toggle>
+        </Card.Header>
+        <Accordion.Collapse eventKey="0">
+          <Card.Body>
             <section className={`${css.full_width} ${css.team}`}>
               <div className={`${css.side_by_side}`}>
                 <div className={css.left}>
@@ -262,12 +265,12 @@ const CountryPartners = () => (
                 </div>
                 <div className={css.right}></div>
               </div>
-            </section>           
-            </Card.Body>
-          </Accordion.Collapse>
-        </Card>
-      </Accordion>
-    </div>
+            </section>
+          </Card.Body>
+        </Accordion.Collapse>
+      </Card>
+    </Accordion>
+  </div>
 );
 
 export default CountryPartners;

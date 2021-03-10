@@ -1,4 +1,5 @@
 import css from "./styles.module.scss";
+import { Image, Row, Col } from "react-bootstrap";
 
 const CorpPartners = () => (
     <section className={`${css.full_width} ${css.gradient}`}>
@@ -18,7 +19,7 @@ const CorpPartners = () => (
         
     </ul>
     <br/>
-    <img src="/static/part.png"/>
+    <Image src="/static/part.png" fluid />
     </div>
   </section>
 );

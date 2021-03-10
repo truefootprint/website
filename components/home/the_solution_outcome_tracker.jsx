@@ -7,31 +7,31 @@ const TheSolutionOutcomeTracker = ({background}) => (
 <section className={css.side_by_side}>
 <div className={css.left}>
   <div className={css.inner}>
-    <Heading subheading="outcome tracker">OUR SOLUTIONS</Heading>
-    <p>
-            Whether you’re a finance organisation, part of a global supply
-            chain, or a government body, we can help you improve your
-            sustainability and impact. Our approach is unique and proven:
-          </p>
+    <Heading subheading="outcometracker">OUR SOLUTIONS</Heading>
+    <ul>
+    <li>
+      Our OutcomeTracker relates ESG/Sustainability data to traditional corporate ratios and ensures their seamless integration into all our clients’ decision-making processes…
+    </li>
+    <li>
+...so that you know all your decisions take into account the true impact of a company’s practices.
+</li>
+<li>
+OutcomeTracker integrates with our clients’ corporate data systems.
+</li>
+<li>
+ESG/Sustainability data can be ingested and extracted automatically as and when needed. 
+</li>
+<li>
+Data can be customised to our clients’ metrics system.
+</li>
+<li>
+Clients decide which information they consider to be “material” for all communication, management and corporate funding projects.
+</li>
+<li>
+OutcomeTracker provides industry comparisons, supports all stakeholder engagement projects and can do so with high frequency.
+</li>
+  </ul>
 
-          <ul>
-            <li>
-              We harness the knowledge of global workforces at the frontline of
-              production and service delivery…
-            </li>
-            <li>
-              …and positively engage them in delivering better outcomes and
-              impacts
-            </li>
-            <li>
-              In the process, we provide you with the richest possible
-              sustainability data.
-            </li>
-            <li>
-              This contributes to embedding sustainability into the DNA of your
-              organisation.
-            </li>
-          </ul>
   </div>
 </div>
 

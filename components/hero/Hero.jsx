@@ -1,8 +1,11 @@
 import Icon from "../icon";
 import { Link } from "../scroll";
 import css from "./styles.module.scss";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Hero = () => (
+  <Row>
+  <Col>
   <div className={css.hero}>
     <div className={css.background}>
       <div className={css.crosshatch} />
@@ -17,6 +20,8 @@ const Hero = () => (
       </h3>
     </div>
   </div>
+  </Col>
+  </Row>
 );
 
 export default Hero;
