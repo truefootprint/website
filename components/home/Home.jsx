@@ -18,7 +18,7 @@ import News from "./news";
 import TheSolutionOutcomeTracker from "./the_solution_outcome_tracker";
 import CountryPartners from "./country_partners";
 import Advisory from "./advisory";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import CorpPartners from "./corp_partners";
 
 const background = (src) => ({ style: { backgroundImage: `url(${src})` } });
@@ -27,11 +27,10 @@ const Home = () => (
   <Layout>
     <Target name="top" />
 
-    <Hero />
-    <div className={css.content}>
     <NavBar />
-   
+    <Hero />
 
+    <div className={css.content}>
       <Target name="approach">
         <Approach />
       </Target>
@@ -70,6 +69,20 @@ const Home = () => (
               For any inquiries, questions or commendations, please email us at{" "}
               <a href="mailto:info@truefootprint.com">info@truefootprint.com</a>
               .
+            </p>
+            <p>
+              The partners at TrueFootprint would love to hear from you and
+              compare notes on our <br/> respective experiences in the ESG and
+              Sustainability space.
+              <br/>
+              Address:<br/> 
+              Beech House, <br/> 
+              Newmarket Road 4A, <br/> 
+              Cambridge,<br/> 
+              Cambridgeshire,<br/>  
+              England, <br/> 
+              CB5
+              8DT
             </p>
 
             <p className={css.copyright}>

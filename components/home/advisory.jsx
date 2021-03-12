@@ -6,10 +6,10 @@ const Advisory = () => (
     <section className={`${css.full_width} ${css.gradient}`}>
     <div className={css.wrap}>
     <h4 className={css.partnersColor}>
-        ADVISORY BOARD MEMBERS
+        ADVISORY BOARD
       </h4>
-      <ol style={{paddingLeft: 125, listStyle: 'decimal'}}>
-        <li><a href="https://www.linkedin.com/in/iwahmad/">Imran Ahmad</a> (ex Transparency International, ex Integrity Action)</li>
+      <ol style={{listStyle: 'decimal'}}>
+        <li><a href="https://www.linkedin.com/in/iwahmad/">Imran Ahmad</a> (Transparency International, Integrity Action)</li>
         <li><a href="https://www.linkedin.com/in/john-hoffmire-5999621/">John Hoffmire</a> (U. of Oxford, Center on Business and Poverty)</li>
         <li><a href="https://www.linkedin.com/in/rahmyn/">Rahmyn Kress</a> (HumanCapitalNetwork) </li>
         <li><a href="https://www.linkedin.com/in/r-may-lee/">May Lee</a> (HumanCapitalNetwork)</li>

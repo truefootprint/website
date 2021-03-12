@@ -3,6 +3,19 @@
   margin: 4rem 0 6rem 0;
 }
 
+.name {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: black;
+  
+}
+
+.title {
+  color: #666;
+  margin-top: 0;
+  text-align: center;  
+}
 .portrait {
   width: 15rem;
   display: flex;
@@ -30,6 +43,10 @@
       margin-top: 0;
     }
   }
+}
+
+.paddingBottomForProfileRow{
+  padding-bottom: 6.5rem;
 }
 
 .blurb {

@@ -1,6 +1,7 @@
 import { Accordion, Card, Button } from "react-bootstrap";
 import Profile from "../profile";
 import css from "./styles.module.scss";
+import { Image, Row, Col } from "react-bootstrap";
 
 const CountryPartners = () => (
   <div>
@@ -18,15 +19,19 @@ const CountryPartners = () => (
     <Accordion>
       <Card className={css.no_card_border}>
         <Card.Header>
+          <Row>
+            <Col md={{offset:4, span: 6}}>
           <Accordion.Toggle as={Button} variant="link" eventKey="0">
             <h3 className={css.partnersSize}>Meet our country partners...</h3>
           </Accordion.Toggle>
+          </Col>
+          </Row>
         </Card.Header>
         <Accordion.Collapse eventKey="0">
           <Card.Body>
             <section className={`${css.full_width} ${css.team}`}>
-              <div className={`${css.side_by_side}`}>
-                <div className={css.left}>
+              <Row>
+                <Col md={{ offset: 1 }}>
                   <Profile
                     src="/static/samuel.jpg"
                     name="Samuel Niyomuremyi"
@@ -45,8 +50,8 @@ const CountryPartners = () => (
                       </li>
                     </ul>
                   </Profile>
-                </div>
-                <div className={css.right}>
+                </Col>
+                <Col>
                   <Profile
                     src="/static/Heri.jpg"
                     name="Heri Bitamala"
@@ -58,11 +63,11 @@ const CountryPartners = () => (
                       <li>Community monitoring expert</li>
                     </ul>
                   </Profile>
-                </div>
-              </div>
+                </Col>
+              </Row>
 
-              <div className={`${css.side_by_side}`}>
-                <div className={css.left}>
+              <Row>
+                <Col md={{ offset: 1 }}>
                   <Profile
                     src="/static/camara.jpeg"
                     name="Pierre Camara"
@@ -74,8 +79,8 @@ const CountryPartners = () => (
                       <li>Président Les Mêmes Droits pour Tous</li>
                     </ul>
                   </Profile>
-                </div>
-                <div id="covid" className={css.right}>
+                </Col>
+                <Col>
                   <Profile
                     src="/static/Floribert.jpg"
                     name="Dr Floribert Kazingufu"
@@ -90,11 +95,11 @@ const CountryPartners = () => (
                       <li>Founder of Peace University, Fondation Chirezi</li>
                     </ul>
                   </Profile>
-                </div>
-              </div>
+                </Col>
+              </Row>
 
-              <div className={`${css.side_by_side}`}>
-                <div className={css.left}>
+              <Row>
+                <Col md={{ offset: 1 }}>
                   <Profile
                     src="/static/Isaac.jpg"
                     name="Isaac Abamwizeye"
@@ -111,8 +116,8 @@ const CountryPartners = () => (
                       </li>
                     </ul>
                   </Profile>
-                </div>
-                <div className={css.right}>
+                </Col>
+                <Col>
                   <Profile
                     src="/static/john.jpg"
                     name="John Wabwire Shikuku"
@@ -131,11 +136,11 @@ const CountryPartners = () => (
                       </li>
                     </ul>
                   </Profile>
-                </div>
-              </div>
+                </Col>
+              </Row>
 
-              <div className={`${css.side_by_side}`}>
-                <div className={css.left}>
+              <Row>
+                <Col md={{ offset: 1 }}>
                   <Profile
                     src="/static/judith.jpeg"
                     name="Judith Mutange"
@@ -153,8 +158,8 @@ const CountryPartners = () => (
                       </li>
                     </ul>
                   </Profile>
-                </div>
-                <div className={css.right}>
+                </Col>
+                <Col>
                   <Profile
                     src="/static/mike.jpg"
                     name="Mike Tyson Oyola"
@@ -172,11 +177,11 @@ const CountryPartners = () => (
                       </li>
                     </ul>
                   </Profile>
-                </div>
-              </div>
+                </Col>
+              </Row>
 
-              <div className={`${css.side_by_side}`}>
-                <div className={css.left}>
+              <Row>
+                <Col md={{ offset: 1 }}>
                   <Profile
                     src="/static/rachel.jpeg"
                     name="Rachel Uwizerwa"
@@ -191,8 +196,8 @@ const CountryPartners = () => (
                       </li>
                     </ul>
                   </Profile>
-                </div>
-                <div className={css.right}>
+                </Col>
+                <Col>
                   <Profile
                     src="/static/richard.jpg"
                     name="Richard Arinitwe"
@@ -209,11 +214,11 @@ const CountryPartners = () => (
                       </li>
                     </ul>
                   </Profile>
-                </div>
-              </div>
+                </Col>
+              </Row>
 
-              <div className={`${css.side_by_side}`}>
-                <div className={css.left}>
+              <Row>
+                <Col md={{ offset: 1 }}>
                   <Profile
                     src="/static/Tarak.jpg"
                     name="Dr Tarak Bahadur"
@@ -228,8 +233,8 @@ const CountryPartners = () => (
                       </li>
                     </ul>
                   </Profile>
-                </div>
-                <div className={css.right}>
+                </Col>
+                <Col>
                   <Profile
                     src="/static/victor.jpeg"
                     name="Victor Alex"
@@ -241,10 +246,10 @@ const CountryPartners = () => (
                       <li>Monitoring and evaluation specialist</li>
                     </ul>
                   </Profile>
-                </div>
-              </div>
-              <div className={`${css.side_by_side}`}>
-                <div className={css.left}>
+                </Col>
+              </Row>
+              <Row>
+                <Col md={{ offset: 1, span: 6 }}>
                   <Profile
                     src="/static/jose.JPG"
                     name="Jose Alves da Costa"
@@ -262,9 +267,8 @@ const CountryPartners = () => (
                       </li>
                     </ul>
                   </Profile>
-                </div>
-                <div className={css.right}></div>
-              </div>
+                </Col>
+              </Row>
             </section>
           </Card.Body>
         </Accordion.Collapse>

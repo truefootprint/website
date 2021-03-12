@@ -1,14 +1,17 @@
 import css from "./styles.module.scss";
 import Heading from "../heading";
 import Profile from "../profile";
+import { Image, Row, Col } from "react-bootstrap";
 
 const Team = () => (
   <section className={`${css.full_width} ${css.team} ${css.gradient}`}>
     <div>
       <Heading>Team</Heading>
+      <br/><br/><br/>
     </div>
-    <div className={`${css.side_by_side}`}>
-      <div className={css.left}>
+    
+    <Row>
+      <Col md={{ offset: 1 }}>
         <Profile
           src="/static/fredrik.jpg"
           name="Fredrik Galtung"
@@ -42,8 +45,8 @@ const Team = () => (
             </li>
           </ul>
         </Profile>
-      </div>
-      <div className={css.right}>
+      </Col>
+      <Col>
         <Profile
           src="/static/christian-color.png"
           name="Christian Benigni"
@@ -62,11 +65,11 @@ const Team = () => (
             </li>
           </ul>
         </Profile>
-      </div>
-    </div>
-
-    <div className={`${css.side_by_side}`}>
-      <div className={css.left}>
+      </Col>
+    </Row>
+    
+    <Row>
+      <Col md={{ offset: 1 }}>
         <Profile
           src="/static/edwin.jpg"
           name="Edwin Bos"
@@ -88,8 +91,8 @@ const Team = () => (
             <li>Wikipedia contributor</li>
           </ul>
         </Profile>
-      </div>
-      <div className={css.right}>
+      </Col>
+      <Col>
         <Profile
           src="/static/chanda.jpeg"
           name="Chanda Pwapwa"
@@ -104,50 +107,52 @@ const Team = () => (
             </li>
           </ul>
         </Profile>
-      </div>
-    </div>
-    <div className={`${css.side_by_side}`}>
-          <div className={css.left}>
-            <Profile
-              src="/static/jackie.jpg"
-              name="Jackie Acaa"
-              title="Rural Development Specialist"
-            >
-              <ul>
-                <li>
-                  Agriculturalist, Master Trainer in FFS
-                  <br /> methodology
-                </li>
-                <li>
-                  Former Program Coordinator with Sasakawa <br /> Global 2000
-                  Uganda
-                </li>
-                <li>Volunteer with Field of Hope</li>
-              </ul>
-            </Profile>
-          </div>
-          <div className={css.right}>
-            <Profile
-              src="/static/d2.jpg"
-              name="Daisy Barlett"
-              title="Project Coordinator"
-            >
-              <ul>
-                <li>Former Program Coordinator at Hospice Africa Uganda </li>
-                <li>
-                  Experience in PR at Weber Shandwick Paris, for Twitter,
-                  Motorola <br/> and Rolls-Royce Motor Cars
-                </li>
-                <li>
-                  Master's in Trilingual Negotiation & Intercultural Management
-                </li>
-                <li>Avid Traveler</li>
-              </ul>
-            </Profile>
-          </div>
-        </div>
-    <div className={`${css.side_by_side}`}>
-      <div className={css.left}>
+      </Col>
+    </Row>
+    
+    <Row>
+      <Col md={{ offset: 1 }}>
+        <Profile
+          src="/static/jackie.jpg"
+          name="Jackie Acaa"
+          title="Rural Development Specialist"
+        >
+          <ul>
+            <li>
+              Agriculturalist, Master Trainer in FFS
+              <br /> methodology
+            </li>
+            <li>
+              Former Program Coordinator with Sasakawa <br /> Global 2000 Uganda
+            </li>
+            <li>Volunteer with Field of Hope</li>
+          </ul>
+        </Profile>
+      </Col>
+      <Col>
+        <Profile
+          src="/static/d2.jpg"
+          name="Daisy Barlett"
+          title="Project Coordinator"
+        >
+          <ul>
+            <li>Former Program Coordinator at Hospice Africa Uganda </li>
+            <li>
+              Experience in PR at Weber Shandwick Paris, for Twitter, Motorola{" "}
+              <br /> and Rolls-Royce Motor Cars
+            </li>
+            <li>
+              Master's in Trilingual Negotiation & Intercultural Management
+            </li>
+            <li>Avid Traveler</li>
+          </ul>
+        </Profile>
+      </Col>
+      
+    </Row>
+    
+    <Row>
+      <Col md={{ offset: 1 }}>
         <Profile
           src="/static/Carly.jpeg"
           name="Carly Dryhurst-Smith"
@@ -159,8 +164,8 @@ const Team = () => (
             <li>Lead UX designer at VC Forward Partners</li>
           </ul>
         </Profile>
-      </div>
-      <div className={css.right}>
+      </Col>
+      <Col>
         <Profile
           src="/static/audrey.JPG"
           name="Audrey de Garidel"
@@ -175,8 +180,10 @@ const Team = () => (
             </li>
           </ul>
         </Profile>
-      </div>
-    </div>
+      </Col>
+      
+    </Row>
+    
   </section>
 );
 

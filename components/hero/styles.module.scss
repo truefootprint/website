@@ -1,16 +1,16 @@
 $height: 42.5rem;
 
 .background {
-  margin-top: 8rem;
-  width: 99%;
-  height: $height;
-  max-height: 100%;
+  // margin-top: 8rem;
+  // width: 99%;
+  // height: $height;
+  // max-height: 100%;
 
   background: #8c5137 url(/static/silhouette.jpg) no-repeat center;
   background-size: cover;
 
-  position: fixed;
-  top: 0;
+  // position: fixed;
+  // top: 0;
 }
 
 $bg: rgba(0, 0, 0, 0.2);
@@ -29,6 +29,19 @@ $bg: rgba(0, 0, 0, 0.2);
   z-index: -1;
 }
 
+.conti {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.example {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+}
+
 .foreground {
   margin-top: 8rem;
   width: 100%;
@@ -40,7 +53,7 @@ $bg: rgba(0, 0, 0, 0.2);
 }
 
 .text {
-  color: white;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   padding-top: 4rem;
   font-size: 3.25rem;
