@@ -35,7 +35,7 @@ OutcomeTracker provides industry comparisons, supports all stakeholder engagemen
   </div>
 </div>
 
-<div className={`${css.right} ${css.closer_mobile}`}>
+<div className={`${css.right} ${css.closer_mobile_video}`}>
   <div className={css.video_container}>
     <video muted autoPlay loop playsInline poster="/static/esg-score-dashboard-poster.png">
       <source src="/static/esg-score-dashboard.mp4" type="video/mp4" />
