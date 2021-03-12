@@ -10,7 +10,7 @@ const Hero = () => (
     {/* <div className={css.background}>
       <div className={css.crosshatch} />
     </div> */}
-    <Image src="/static/silhouette.jpg" fluid /> 
+    <Image className={css.background_image} src="/static/silhouette.jpg" fluid /> 
     <div className={css.example}>
       <h3 className={css.text}>
         <div>Harnessing</div>

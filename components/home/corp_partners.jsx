@@ -7,7 +7,7 @@ const CorpPartners = () => (
       <section className={`${css.full_width} ${css.gradient}`}>
         <div className={css.wrap}>
           <h4 className={css.partnersColor}>PARTNERS</h4>
-          <ul style={{ paddingLeft: 125, listStyle: "decimal" }}>
+          <ul style={{ listStyle: "decimal" }}>
             <li>
               <a href="https://www.humancapitalnetwork.com/">
                 Human Capital Network{" "}

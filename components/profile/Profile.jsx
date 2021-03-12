@@ -3,7 +3,7 @@ import { Figure, Image, Row, Col } from "react-bootstrap";
 
 const Profile = ({ src, name, title, children }) => (
   <Row className={css.paddingBottomForProfileRow}>
-    <Col md={3}>
+    <Col md={3} className={css.center_on_small_screen}>
       <Figure>
         <Figure.Image width={171} height={180} alt="171x180" src={src} roundedCircle />
         <Figure.Caption className={css.name}>

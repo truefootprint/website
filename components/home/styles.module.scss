@@ -2,6 +2,15 @@
   border: none;
 }
 
+.country_partners_header {
+  background-color: white;
+  border: none;
+}
+
+.padding_for_rows{
+  padding-top: 5rem;
+}
+
 .custom_list_group {
   align-items: center;
   background-color: white;
@@ -222,6 +231,16 @@
 }
 
 @media (max-width: 47rem) {
+  .padding_for_working_image_sm{
+    padding-top: 2rem;
+  }
+
+  .padding_for_rows{
+    :global(.Heading) {
+      text-align: center;
+    }
+  }
+
   .full_width {
     padding: 3rem 1.5rem;
   }

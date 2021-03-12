@@ -74,14 +74,14 @@ const Home = () => (
               The partners at TrueFootprint would love to hear from you and
               compare notes on our <br/> respective experiences in the ESG and
               Sustainability space.
-              <br/>
+              <br/><br/>
               Address:<br/> 
-              Beech House, <br/> 
+              Beech House, 
               Newmarket Road 4A, <br/> 
               Cambridge,<br/> 
               Cambridgeshire,<br/>  
               England, <br/> 
-              CB5
+              CB5,<br/>
               8DT
             </p>
 

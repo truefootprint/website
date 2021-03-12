@@ -54,6 +54,11 @@
 }
 
 @media (max-width: 47rem) {
+
+  .center_on_small_screen{
+    text-align: center;
+  }
+
   .profile {
     display: block;
   }

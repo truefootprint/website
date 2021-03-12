@@ -2,13 +2,20 @@ import { Accordion, Card, Button } from "react-bootstrap";
 import Profile from "../profile";
 import css from "./styles.module.scss";
 import { Image, Row, Col } from "react-bootstrap";
+import { FaCaretRight, FaCaretDown } from 'react-icons/fa';
+import React, { useState, useEffect, useContext, useRef, cloneElement } from "react";
 
-const CountryPartners = () => (
+
+const CountryPartners = () => {
+
+  const [open, setOpen] = useState(false);
+
+  return(
   <div>
     <section className={css.wrap}>
       <h4 className={css.partnersColor}>COUNTRY PARTNERS</h4>
       <br />
-      <p className={css.partnersSize}>
+      <p style={{ marginLeft: 20}} className={css.partnersSize}>
         We have country partners in the following countries:
         <br />
         DR Congo, Kenya, South Sudan, Nepal, Timor Leste, Rwanda, Burundi,
@@ -18,15 +25,17 @@ const CountryPartners = () => (
     </section>
     <Accordion>
       <Card className={css.no_card_border}>
-        <Card.Header>
-          <Row>
-            <Col md={{offset:4, span: 6}}>
-          <Accordion.Toggle as={Button} variant="link" eventKey="0">
-            <h3 className={css.partnersSize}>Meet our country partners...</h3>
-          </Accordion.Toggle>
+        <Row>
+          <Col md={{ offset: 3, span: 6 }}>
+            <Card.Header className={css.country_partners_header}>
+              <Accordion.Toggle as={Button} variant="link" eventKey="0" onClick={() => setOpen(!open)}> 
+                <h3 className={css.partnersSize}>
+                { open ? <FaCaretDown /> : <FaCaretRight/> } Meet our country partners...
+                </h3>
+              </Accordion.Toggle>
+            </Card.Header>
           </Col>
-          </Row>
-        </Card.Header>
+        </Row>
         <Accordion.Collapse eventKey="0">
           <Card.Body>
             <section className={`${css.full_width} ${css.team}`}>
@@ -274,7 +283,7 @@ const CountryPartners = () => (
         </Accordion.Collapse>
       </Card>
     </Accordion>
-  </div>
-);
+  </div>);
+};
 
 export default CountryPartners;
