@@ -30,7 +30,7 @@
 }
 
 .partnersSize {
-  font-size: 25px;
+  font-size: 20px;
   color:gray;
 }
 
@@ -269,8 +269,12 @@
       max-width: none;
     }
 
+    .closer_mobile {
+      margin-top: -40px;
+    }
+
     .left, .right {
-      min-height: 15rem;
+      min-height: 10rem;
     }
   }
 }
