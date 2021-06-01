@@ -7,10 +7,7 @@ const Advisory = () => (
     <div className={css.wrap}>
       <h4 className={css.partnersColor}>ADVISORY BOARD</h4>
       <ol style={{ marginLeft: 30, listStyle: "decimal" }}>
-        <li>
-          <a href="https://www.linkedin.com/in/iwahmad/">Imran Ahmad</a>{" "}
-          (Transparency International, Integrity Action)
-        </li>
+
         <li>
           <a href="https://www.linkedin.com/in/john-hoffmire-5999621/">
             John Hoffmire

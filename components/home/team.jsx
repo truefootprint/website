@@ -94,6 +94,23 @@ const Team = () => (
       </Col>
       <Col>
         <Profile
+          src="/static/imran.jpeg"
+          name="Imran Ahmad"
+          title="MD TrueFootprint Netherlands"
+        >
+          <ul>
+          <li>Chairperson Foundation The London Story</li>
+          <li>Worked with Transparency International, Integrity Action</li>
+          <li>Former anti-corruption advisor to UNDP Mongolia</li>
+          <li>Founded NGOs Insane Ekta Muhim and Punasch</li>
+          </ul>
+        </Profile>
+      </Col>
+    </Row>
+
+    <Row>
+      <Col md={{ offset: 1 }}>
+      <Profile
           src="/static/chanda.jpeg"
           name="Chanda Pwapwa"
           title="Lead Engineer"
@@ -105,6 +122,19 @@ const Team = () => (
               Has worked on distributed teams located in <br /> Cape Town,
               Singapore and London.
             </li>
+          </ul>
+        </Profile>
+      </Col>
+      <Col>
+      <Profile
+          src="/static/Carly.jpeg"
+          name="Carly Dryhurst-Smith"
+          title="Designer"
+        >
+          <ul>
+            <li>Designed for Reevoo, Topshop and NHS</li>
+            <li>Founder agency With Bells On!</li>
+            <li>Lead UX designer at VC Forward Partners</li>
           </ul>
         </Profile>
       </Col>
@@ -131,7 +161,7 @@ const Team = () => (
       </Col>
       <Col>
         <Profile
-          src="/static/d2.jpg"
+          src="/static/d1.jpg"
           name="Daisy Barlett"
           title="Project Coordinator"
         >
@@ -154,19 +184,6 @@ const Team = () => (
     <Row>
       <Col md={{ offset: 1 }}>
         <Profile
-          src="/static/Carly.jpeg"
-          name="Carly Dryhurst-Smith"
-          title="Designer"
-        >
-          <ul>
-            <li>Designed for Reevoo, Topshop and NHS</li>
-            <li>Founder agency With Bells On!</li>
-            <li>Lead UX designer at VC Forward Partners</li>
-          </ul>
-        </Profile>
-      </Col>
-      <Col>
-        <Profile
           src="/static/audrey.JPG"
           name="Audrey de Garidel"
           title="Non-Executive Director"
@@ -181,6 +198,7 @@ const Team = () => (
           </ul>
         </Profile>
       </Col>
+      <Col></Col>
       
     </Row>
     
