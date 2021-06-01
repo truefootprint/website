@@ -99,10 +99,10 @@ const Team = () => (
           title="MD TrueFootprint Netherlands"
         >
           <ul>
-          <li>Chairperson Foundation The London Story</li>
           <li>Worked with Transparency International, Integrity Action</li>
+          <li>Former MD Rainbow Collection UAE</li>
           <li>Former anti-corruption advisor to UNDP Mongolia</li>
-          <li>Founded NGOs Insane Ekta Muhim and Punasch</li>
+          <li>Founded NGOs Insani Ekta Muhim and Punasch</li>
           </ul>
         </Profile>
       </Col>
