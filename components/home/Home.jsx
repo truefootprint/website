@@ -16,10 +16,12 @@ import Covid from "./covid";
 import Team from "./team";
 import News from "./news";
 import TheSolutionOutcomeTracker from "./the_solution_outcome_tracker";
+import TheSolutionFinProducts from "./the_solution_fin_products";
 import CountryPartners from "./country_partners";
 import Advisory from "./advisory";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import CorpPartners from "./corp_partners";
+import HubspotForm from 'react-hubspot-form'
 
 const background = (src) => ({ style: { backgroundImage: `url(${src})` } });
 
@@ -37,9 +39,10 @@ const Home = () => (
       <Target name="solutions">
         <TheSolution background={background} />
       </Target>
-      <Covid background={background} />
       <TheSolutionOutcomeTracker />
-
+      <TheSolutionFinProducts/>
+      <Covid background={background} />
+      
       <Target name="downloads">
         <Scorecard />
       </Target>
@@ -70,6 +73,15 @@ const Home = () => (
               <a href="mailto:info@truefootprint.com">info@truefootprint.com</a>
               .
             </p>
+            <div>
+            <HubspotForm
+              portalId='9481189'
+              formId='13da2f3f-d0e7-4f97-92ab-a3bc5aaa8cfa'
+              onSubmit={() => console.log('Submit!')}
+              onReady={(form) => console.log('Form ready!')}
+              loading={<div>Loading...</div>}
+              />
+            </div>
             <p>
               The partners at TrueFootprint would love to hear from you and
               compare notes on our <br/> respective experiences in the ESG and

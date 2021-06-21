@@ -14,7 +14,7 @@ const CorpPartners = () => (
               </a>
             </li>
             <li>
-              <a href="https://besystemic.com/">Systemic </a>
+              <a href="https://materra.earth/">Materra</a>
             </li>
             <li>
               <a href="https://humannature-places.com/">Human+Nature </a>
@@ -22,10 +22,12 @@ const CorpPartners = () => (
             <li>
               <a href="https://www.hoganlovells.com/">Hogan Lovells </a>
             </li>
-            <p>
-              and are founding members of{" "}
+            <li>
+              <a href="https://www.centeronbusinessandpoverty.com/">Center on Business and Poverty</a>
+            </li>
+            <li>
               <a href="https://catalyst2030.net/">Catalyst 2030</a>
-            </p>
+            </li>
           </ul>
           <br />
           <Row>
@@ -52,10 +54,15 @@ const CorpPartners = () => (
                   </a>
                 </ListGroup.Item>
                 <ListGroup.Item className={css.list_group_item}>
+                  <a href="https://www.centeronbusinessandpoverty.com/">
+                    <Image src="/static/center_on_business_and_poverty.png" width={130} height={130} fluid />
+                  </a>
+                </ListGroup.Item> 
+                <ListGroup.Item className={css.list_group_item}>
                   <a href="https://www.catalyst2030.com/">
                     <Image src="/static/cata.png" fluid />
                   </a>
-                </ListGroup.Item>
+                </ListGroup.Item>               
               </ListGroup>
             </Col>
           </Row>
