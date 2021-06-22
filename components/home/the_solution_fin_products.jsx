@@ -5,7 +5,7 @@ import { Image, Row, Col } from "react-bootstrap";
 
 const TheSolutionFinProducts = ({ background }) => (
   <Row >
-    <Col className={`${css.padding_for_rows}`} md={{offset: 2, span: 4}}>
+    <Col className={`${css.padding_for_rows}`} md={{offset: 1}}>
       <div className={css.inner}>
         <Heading subheading="FINANCIAL PRODUCT STRUCTURING">
           OUR SOLUTIONS
@@ -26,24 +26,14 @@ const TheSolutionFinProducts = ({ background }) => (
         <p>
           We would be delighted to be able to play our part in the unlocking of
           the financial means required to address some of humankind’s most
-          pressing sustainability challenges. Examples:
+          pressing sustainability challenges. Examples include:
         </p>
         <ul>
           <li>
-            GP stake investing provides the working capital private market
-            managers require to pivot their asset management operations towards
-            a more comprehensive inclusion of sustainability measures.
+            GP stake investing
           </li>
           <li>
-            “Contingent payer” structures provide an efficient framework of
-            financial and sustainability incentives all participants agree
-            promote a systemic shift.
-          </li>
-          <li>
-            Multi-asset / multi-manager structures help asset managers and asset
-            owners to look beyond traditional investment silos, define
-            transitional outcomes and create the sequence of purpose-structured
-            funding solutions to achieve a desired systems change.
+            "Contingent payer” structures.
           </li>
         </ul>
         <p>

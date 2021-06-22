@@ -26,7 +26,7 @@ const CorpPartners = () => (
               <a href="https://www.centeronbusinessandpoverty.com/">Center on Business and Poverty</a>
             </li>
             <li>
-              <a href="https://catalyst2030.net/">Catalyst 2030</a>
+              <a href="https://catalyst2030.net/">Catalyst 2030 (founding member)</a>
             </li>
           </ul>
           <br />
@@ -39,7 +39,7 @@ const CorpPartners = () => (
                   </a>
                 </ListGroup.Item>
                 <ListGroup.Item className={css.list_group_item}>
-                  <a href="https://www.besystemic.com/">
+                  <a href="https://materra.earth/">
                     <Image src="/static/sys.png" fluid />
                   </a>
                 </ListGroup.Item>

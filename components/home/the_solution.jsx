@@ -5,7 +5,7 @@ import { Image, Row, Col } from "react-bootstrap";
 
 const TheSolution = ({ background }) => (
   <Row>
-    <Col className={css.padding_for_rows} md={{offset: 2, span: 4}}>
+    <Col className={css.padding_for_rows} md={{ offset: 1}}>
       <div className={css.inner}>
         <Heading subheading="FieldApp">Our solutions</Heading>
 

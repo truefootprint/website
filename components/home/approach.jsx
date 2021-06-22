@@ -6,13 +6,13 @@ import { Image, Row, Col } from "react-bootstrap";
 const Approach = () => (
   <section className={`${css.full_width} ${css.gradient}`}>
     <Row>
-      <Col className={css.padding_for_rows} md={{ offset: 4, span: 4 }}>
+      <Col className={css.padding_for_rows} >
         <Heading>Our Approach</Heading>
       </Col>
     </Row>
     <br/><br/><br/>
     <Row>
-      <Col  md={{ offset: 2, span: 4 }}>
+      <Col  md={{ offset: 1}}>
         <p>
         Whether you’re a finance organisation, part of a global supply chain, 
         or a government body, we can help you improve your sustainability and impact.        

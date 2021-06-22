@@ -70,9 +70,10 @@ const Home = () => (
 
             <p>
               For any inquiries, questions or commendations, please email us at{" "}
-              <a href="mailto:info@truefootprint.com">info@truefootprint.com</a>
-              .
+              <a href="mailto:info@truefootprint.com">info@truefootprint.com</a>.<br/>
+              Or use the form below:              
             </p>
+            <br/>
             <div>
             <HubspotForm
               portalId='9481189'
