@@ -10,6 +10,7 @@ const TheSolutionFinProducts = ({ background }) => (
         <Heading subheading="FINANCIAL PRODUCT STRUCTURING">
           OUR SOLUTIONS
         </Heading>
+        <br/><br/>
         <p>
           We are looking to collaborate with asset owners and asset managers on
           the facilitation of systems change. Our unique quality of material,
