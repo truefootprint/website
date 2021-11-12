@@ -6,6 +6,11 @@ const News = () => (
     <div className={css.wrap}>
       <Heading>News</Heading>
       <ul>
+        <li> We signed a strategic partnership agreement with rePlant Capital. (Oct ‘21)</li>
+        <li>We completed our prototyping projects with farmers in Uganda (Jul '21)</li>
+        <li>We registered our Dutch branch with the local chamber of commerce  (Jun '21)</li>
+        <li> We receive our 20,000th data point  (Jun '21)</li>
+        <li>Imran Ahmad has joined as MD of the Netherlands  (Apr ‘21)</li>
         <li>
           Chad becomes the 26th country from where we receive FieldApp data (Feb
           ‘21)

@@ -89,21 +89,23 @@ const Home = () => (
               Sustainability space.
               <Row>
               <Col md={{ offset: 1 }}>
+                <br/><br/>                
+                The Netherlands office:<br/> 
+                Fluwelen Burgwal 58 <br/> 
+                2511 CJ <br/>
+                The Hague  <br/> 
+                The Netherlands<br/> 
+              </Col>
+
+              <Col >
                 <br/><br/>
-                Headquarters:<br/> 
+                The UK office:<br/> 
                 Beech House, 
                 Newmarket Road 4A, <br/> 
                 Cambridge,<br/> 
                 Cambridgeshire,<br/>  
                 England, <br/> 
                 CB5 8DT
-              </Col>
-              <Col>
-                <br/><br/>                
-                The Netherlands branch:<br/> 
-                Terp 17, 
-                8637VH Wiuwert, <br/> 
-                The Netherlands<br/> 
               </Col>
 
               </Row>

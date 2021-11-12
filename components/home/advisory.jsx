@@ -7,7 +7,11 @@ const Advisory = () => (
     <div className={css.wrap}>
       <h4 className={css.partnersColor}>ADVISORY BOARD</h4>
       <ol style={{ marginLeft: 30, listStyle: "decimal" }}>
-
+        <li>
+          <a href="https://www.linkedin.com/in/christianbenigni/">
+           Christian Benigni</a> {" "}
+           (MyyTake Global)          
+        </li>
         <li>
           <a href="https://www.linkedin.com/in/john-hoffmire-5999621/">
             John Hoffmire
@@ -16,7 +20,7 @@ const Advisory = () => (
         </li>
         <li>
           <a href="https://www.linkedin.com/in/rahmyn/">Rahmyn Kress</a>{" "}
-          (HumanCapitalNetwork){" "}
+          (WeVee){" "}
         </li>
         <li>
           <a href="https://www.linkedin.com/in/r-may-lee/">May Lee</a>{" "}
@@ -27,12 +31,6 @@ const Advisory = () => (
             Farhaan Mir
           </a>{" "}
           (11Onze, HumanNaturePlaces)
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/nick-tims-64b59b36/">
-            Nick Tims
-          </a>{" "}
-          (ex Investec)
         </li>
       </ol>
     </div>

@@ -47,30 +47,7 @@ const Team = () => (
         </Profile>
       </Col>
       <Col>
-        <Profile
-          src="/static/christian-color.png"
-          name="Christian Benigni"
-          title="Chief of Financial Products"
-        >
-          <ul>
-            <li>Co-founder GFP Juniper</li>
-            <li>Co-founder First Avenue Partners</li>
-            <li>
-              Created the largest hedge fund franchise at <br /> the time in
-              German-speaking Europe
-            </li>
-            <li>
-              Expert in creation, structuring and placement of financial
-              products
-            </li>
-          </ul>
-        </Profile>
-      </Col>
-    </Row>
-    
-    <Row>
-      <Col md={{ offset: 1 }}>
-        <Profile
+      <Profile
           src="/static/edwin.jpg"
           name="Edwin Bos"
           title="Chief Product Officer"
@@ -92,7 +69,10 @@ const Team = () => (
           </ul>
         </Profile>
       </Col>
-      <Col>
+    </Row>
+    
+    <Row>
+      <Col md={{ offset: 1 }}>
         <Profile
           src="/static/imran.jpeg"
           name="Imran Ahmad"
@@ -105,12 +85,9 @@ const Team = () => (
           <li>Founded NGOs Insani Ekta Muhim and Punasch</li>
           </ul>
         </Profile>
-      </Col>
-    </Row>
-
-    <Row>
-      <Col md={{ offset: 1 }}>
-      <Profile
+        </Col>
+        <Col>
+        <Profile
           src="/static/chanda.jpeg"
           name="Chanda Pwapwa"
           title="Lead Engineer"
@@ -125,7 +102,10 @@ const Team = () => (
           </ul>
         </Profile>
       </Col>
-      <Col>
+    </Row>
+
+    <Row>
+      <Col md={{ offset: 1 }}>
       <Profile
           src="/static/Carly.jpeg"
           name="Carly Dryhurst-Smith"
@@ -138,11 +118,8 @@ const Team = () => (
           </ul>
         </Profile>
       </Col>
-    </Row>
-    
-    <Row>
-      <Col md={{ offset: 1 }}>
-        <Profile
+      <Col>
+      <Profile
           src="/static/jackie.jpg"
           name="Jackie Acaa"
           title="Rural Development Specialist"
@@ -159,8 +136,11 @@ const Team = () => (
           </ul>
         </Profile>
       </Col>
-      <Col>
-        <Profile
+    </Row>
+    
+    <Row>
+      <Col md={{ offset: 1 }}>
+      <Profile
           src="/static/d1.jpg"
           name="Daisy Barlett"
           title="Project Coordinator"
@@ -178,12 +158,8 @@ const Team = () => (
           </ul>
         </Profile>
       </Col>
-      
-    </Row>
-    
-    <Row>
-      <Col md={{ offset: 1 }}>
-        <Profile
+      <Col>
+      <Profile
           src="/static/audrey.JPG"
           name="Audrey de Garidel"
           title="Non-Executive Director"
@@ -197,11 +173,8 @@ const Team = () => (
             </li>
           </ul>
         </Profile>
-      </Col>
-      <Col></Col>
-      
-    </Row>
-    
+      </Col>      
+    </Row>    
   </section>
 );
 

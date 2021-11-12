@@ -7,20 +7,20 @@ const CorpPartners = () => (
       <section className={`${css.full_width} ${css.gradient}`}>
         <div className={css.wrap}>
           <h4 className={css.partnersColor}>PARTNERS</h4>
-          <ul style={{ listStyle: "decimal" }}>
+          <ol style={{ listStyle: "decimal" }}>
             <li>
-              <a href="https://www.humancapitalnetwork.com/">
-                Human Capital Network{" "}
+              <a href="https://www.replantcapital.com/">
+              rePlant Capital
               </a>
             </li>
             <li>
-              <a href="https://materra.earth/">Materra</a>
+              <a href="https://myytake.com/">myyTake</a>
             </li>
             <li>
-              <a href="https://humannature-places.com/">Human+Nature </a>
+              <a href="https://humannature-places.com/">Human+Nature</a>
             </li>
             <li>
-              <a href="https://www.hoganlovells.com/">Hogan Lovells </a>
+              <a href="https://www.hoganlovells.com/">Hogan Lovells</a>
             </li>
             <li>
               <a href="https://www.centeronbusinessandpoverty.com/">Center on Business and Poverty</a>
@@ -28,19 +28,19 @@ const CorpPartners = () => (
             <li>
               <a href="https://catalyst2030.net/">Catalyst 2030 (founding member)</a>
             </li>
-          </ul>
+          </ol>
           <br />
           <Row>
-            <Col md={{offset: 2, span: 8}}>
+            <Col >
               <ListGroup horizontal className={css.custom_list_group}>
-                <ListGroup.Item className={css.list_group_item}>
-                  <a href="https://www.humancapitalnetwork.com/">
-                    <Image src="/static/hcn.png" fluid />
+              <ListGroup.Item className={css.list_group_item}>
+                  <a href="https://www.replantcapital.com/">
+                    <Image src="/static/replant.png" fluid />
                   </a>
                 </ListGroup.Item>
                 <ListGroup.Item className={css.list_group_item}>
-                  <a href="https://materra.earth/">
-                    <Image src="/static/sys.png" fluid />
+                  <a href="https://myytake.com/">
+                    <Image src="/static/myytake.png" fluid />
                   </a>
                 </ListGroup.Item>
                 <ListGroup.Item className={css.list_group_item}>
