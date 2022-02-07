@@ -148,11 +148,10 @@ const Team = () => (
           <ul>
             <li>Former Program Coordinator at Hospice Africa Uganda </li>
             <li>
-              Experience in PR at Weber Shandwick Paris, for Twitter, Motorola{" "}
-              <br /> and Rolls-Royce Motor Cars
+              Experience in PR at Weber Shandwick Paris, for Twitter, Motorola and Rolls-Royce Motor Cars
             </li>
             <li>
-              Master's in Trilingual Negotiation & Intercultural Management
+              Masters in Trilingual Negotiation & Intercultural Management
             </li>
             <li>Avid Traveler</li>
           </ul>

@@ -11,34 +11,26 @@ const TheSolution = ({ background }) => (
 
         <ul>
           <li>
-            Our FieldApp means people on the ground can identify and solve
-            problems to improve their lives.
-          </li>
-          <li>
-            The data and solutions they find can be scaled up so everyone
-            benefits.
-          </li>
-          <li>
-            You decide the questions that need answering: users give you data
-            and come up with solutions.
+          Our FieldApp means people on the ground can identify and solve problems to improve their lives.
           </li>
           <li>
             Our method means users take ownership of solutions, collecting data
             in the process.
           </li>
           <li>
-            We produce reports tailored to you, with the rich sustainability
-            data you need.
+          This data provides confidence in activities and climate benefits actually happening.
           </li>
           <li>
-            You benefit from an engaged workforce to implement successful
-            solutions from the grassroots.
+          We produce reports with rich sustainability data.
+          </li>
+          <li>
+          Companies benefit from an engaged workforce and supply chain to implement successful solutions from the grassroots.
           </li>
         </ul>
       </div>
     </Col>
     <Col className={css.padding_for_working_image_sm}>
-      <Image src="/static/working.jpg" fluid />
+      <Image src="/static/farmer.png" fluid />
     </Col>
   </Row>
 );

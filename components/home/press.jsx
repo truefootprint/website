@@ -30,6 +30,21 @@ const Press = () => (
         </div>
 
         <div className={css.item}>
+          <time>The Business of Giving</time>
+
+          <p>
+            In a podcast with            <a
+              href="https://www.denver-frederick.com/2022/01/24/truefootprint-ceo-big-change-needs-to-involve-many-many-more-people-and-it-needs-to-benefit-many-more-people/"
+              target="_blank"
+            >
+              Business of Giving 
+            </a>, Fredrik spoke about how big change needs to involve many, many more people and it needs to benefit many more people.
+          </p>
+        </div>
+
+
+
+        <div className={css.item}>
           <time>Break the Chain</time>
           <p>
             In a podcast with{" "}

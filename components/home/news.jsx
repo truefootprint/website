@@ -6,6 +6,8 @@ const News = () => (
     <div className={css.wrap}>
       <Heading>News</Heading>
       <ul>
+        <li>Green light for use of FieldApp in Global Partnership for Education with Centre De Recherche Sur L’anti-Corruption in DR Congo (Jan ‘22)</li>
+        <li>Project with tea farmers in Rwanda started (Jan ‘22)</li>
         <li> We signed a strategic partnership agreement with rePlant Capital. (Oct ‘21)</li>
         <li>We completed our prototyping projects with farmers in Uganda (Jul '21)</li>
         <li>We registered our Dutch branch with the local chamber of commerce  (Jun '21)</li>

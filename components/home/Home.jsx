@@ -39,13 +39,13 @@ const Home = () => (
       <Target name="solutions">
         <TheSolution background={background} />
       </Target>
-      <TheSolutionOutcomeTracker />
-      <TheSolutionFinProducts/>
+      {/* <TheSolutionOutcomeTracker /> 
+      <TheSolutionFinProducts/>*/}
       <Covid background={background} />
       
-      <Target name="downloads">
+      {/* <Target name="downloads">
         <Scorecard />
-      </Target>
+      </Target> */}
       <Target name="press">
         <Press />
       </Target>

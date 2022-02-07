@@ -14,23 +14,21 @@ const Approach = () => (
     <Row>
       <Col  md={{ offset: 1}}>
         <p>
-        Whether you’re a finance organisation, part of a global supply chain, 
-        or a government body, we can help you improve your sustainability and impact.        
+        We help companies improve their sustainability and impact. 
+        We unlock the entrepreneurial energy of people to reduce or sequester carbon emissions. 
+        Especially those of global supply chains.       
         </p>
-        <p>Our approach is unique and proven:</p>
-
         <ul>
           <li>
-          We harness the knowledge of global workforces and engage them in delivering better outcomes and impacts.
+          What if millions of smallholder farmers were supported to transition to regenerative farming, each sequestering carbon in the soil? 
           </li>
           <li>
-          In the process, we provide you with the richest possible sustainability data and 
-    help embed sustainability into the DNA of your organisation.
+          What if companies were able to develop carbon offsets that directly benefit them, their supply chains and the communities they operate in? 
           </li>
         </ul>
       </Col>
       <Col className={css.padding_for_working_image_sm}>
-        <Image src="/static/approach.png" fluid />
+        <Image src="/static/newApproach.png" fluid />
       </Col>
     </Row>
   </section>
