@@ -173,7 +173,23 @@ const Team = () => (
           </ul>
         </Profile>
       </Col>      
-    </Row>    
+    </Row>  
+    <Row>
+    <Col md={{ offset: 1 }}>
+      <Profile
+          src="/static/stan.png"
+          name="Stanley Hirsch"
+          title="Non-Executive Director"
+        >
+          <ul>
+            <li>Group CEO of FuturaGene</li>
+            <li>
+World leading tree cell biologist
+            </li>
+          </ul>
+        </Profile>
+      </Col>      
+    </Row> 
   </section>
 );
 

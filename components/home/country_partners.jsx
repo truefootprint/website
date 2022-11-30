@@ -168,21 +168,21 @@ const CountryPartners = () => {
                     </ul>
                   </Profile>
                 </Col>
-                <Col>
+                <Col md={{ offset: 1}}>
                   <Profile
-                    src="/static/mike.jpg"
-                    name="Mike Tyson Oyola"
+                    src="/static/jose.JPG"
+                    name="Jose Alves da Costa"
                     title="Country Partner"
                   >
                     <ul>
-                      <li>Country Partner Kenya</li>
+                      <li>Country Partner Timor Leste</li>
                       <li>
-                        Programme Manager, Positive Engagement for All Programme
+                        Co-founder and Executive Director, <br />
+                        Luta Hamutuk
                       </li>
-                      <li>Data collection using survey CTO, ODK and KOBO</li>
                       <li>
-                        Psychotherapy counselling to persons affected by
-                        Covid-19
+                        Member of the Consultative Council
+                        <br /> of the Ombusman
                       </li>
                     </ul>
                   </Profile>
@@ -253,27 +253,6 @@ const CountryPartners = () => {
                       <li>Country Partner South Sudan</li>
                       <li>Co-founder, African Youth Action Network (AYAN)</li>
                       <li>Monitoring and evaluation specialist</li>
-                    </ul>
-                  </Profile>
-                </Col>
-              </Row>
-              <Row>
-                <Col md={{ offset: 1, span: 6 }}>
-                  <Profile
-                    src="/static/jose.JPG"
-                    name="Jose Alves da Costa"
-                    title="Country Partner"
-                  >
-                    <ul>
-                      <li>Country Partner Timor Leste</li>
-                      <li>
-                        Co-founder and Executive Director, <br />
-                        Luta Hamutuk
-                      </li>
-                      <li>
-                        Member of the Consultative Council
-                        <br /> of the Ombusman
-                      </li>
                     </ul>
                   </Profile>
                 </Col>

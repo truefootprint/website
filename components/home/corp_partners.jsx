@@ -14,7 +14,7 @@ const CorpPartners = () => (
               </a>
             </li>
             <li>
-              <a href="https://myytake.com/">myyTake</a>
+              <a href="https://downforce.tech/">Downforce</a>
             </li>
             <li>
               <a href="https://humannature-places.com/">Human+Nature</a>
@@ -28,6 +28,9 @@ const CorpPartners = () => (
             <li>
               <a href="https://catalyst2030.net/">Catalyst 2030 (founding member)</a>
             </li>
+            <li>
+              <a href="https://greenpeople.earth/">GreenPeople</a>
+            </li>
           </ol>
           <br />
           <Row>
@@ -39,8 +42,8 @@ const CorpPartners = () => (
                   </a>
                 </ListGroup.Item>
                 <ListGroup.Item className={css.list_group_item}>
-                  <a href="https://myytake.com/">
-                    <Image src="/static/myytake.png" fluid />
+                  <a href="https://downforce.tech/">
+                    <Image src="/static/downforce_black.png" fluid />
                   </a>
                 </ListGroup.Item>
                 <ListGroup.Item className={css.list_group_item}>
@@ -62,7 +65,12 @@ const CorpPartners = () => (
                   <a href="https://www.catalyst2030.com/">
                     <Image src="/static/cata.png" fluid />
                   </a>
-                </ListGroup.Item>               
+                </ListGroup.Item>
+                <ListGroup.Item className={css.list_group_item}>
+                  <a href="https://www.greenpeople.earth/">
+                    <Image src="/static/greenpeople.png" fluid />
+                  </a>
+                </ListGroup.Item>                
               </ListGroup>
             </Col>
           </Row>

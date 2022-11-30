@@ -100,12 +100,11 @@ const Home = () => (
               <Col >
                 <br/><br/>
                 The UK office:<br/> 
-                Beech House, 
-                Newmarket Road 4A, <br/> 
-                Cambridge,<br/> 
-                Cambridgeshire,<br/>  
-                England, <br/> 
-                CB5 8DT
+                7 Quy Court<br/>  
+                Colliers Lane <br/> 
+                Stow-cum-Quy<br/> 
+                CB25 9AU<br/>  
+                United Kingdom
               </Col>
 
               </Row>
