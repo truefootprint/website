@@ -43,7 +43,7 @@ const CorpPartners = () => (
                 </ListGroup.Item>
                 <ListGroup.Item className={css.list_group_item}>
                   <a href="https://downforce.tech/">
-                    <Image src="/static/downforce_black.png" fluid />
+                    <Image src="/static/df.png" fluid />
                   </a>
                 </ListGroup.Item>
                 <ListGroup.Item className={css.list_group_item}>

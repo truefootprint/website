@@ -159,24 +159,6 @@ const Team = () => (
       </Col>
       <Col>
       <Profile
-          src="/static/audrey.JPG"
-          name="Audrey de Garidel"
-          title="Non-Executive Director"
-        >
-          <ul>
-            <li>Facilitator of positive impact projects</li>
-            <li>Co-founder, So Impact</li>
-            <li>
-              Worked at Agence Française de Développement, FMO, InfraVia Capital
-              Partners, Latham & Watkins
-            </li>
-          </ul>
-        </Profile>
-      </Col>      
-    </Row>  
-    <Row>
-    <Col md={{ offset: 1 }}>
-      <Profile
           src="/static/stan.png"
           name="Stanley Hirsch"
           title="Non-Executive Director"
@@ -189,7 +171,7 @@ World leading tree cell biologist
           </ul>
         </Profile>
       </Col>      
-    </Row> 
+    </Row>  
   </section>
 );
 
