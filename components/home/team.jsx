@@ -76,7 +76,7 @@ const Team = () => (
         <Profile
           src="/static/imran.jpeg"
           name="Imran Ahmad"
-          title="MD TrueFootprint Netherlands"
+          title="Global Partnerships and Strategy"
         >
           <ul>
           <li>Worked with Transparency International, Integrity Action</li>
@@ -172,6 +172,34 @@ World leading tree cell biologist
         </Profile>
       </Col>      
     </Row>  
+    <Row>
+      <Col md={{ offset: 1 }}>
+      <Profile
+          src="/static/don.png"
+          name="Don Xia"
+          title="Non-executive Director"
+        >
+          <ul>
+<li>Early IT entrepreneur</li>
+<li>Established first Internet incubator in China</li>
+<li>China Advisor International Crisis Group</li>
+          </ul>
+        </Profile>
+      </Col>
+      <Col>
+      <Profile
+          src="/static/KarenStorey.png"
+          name="Karen Storey"
+          title="Non-Executive Director"
+        >
+          <ul>
+        <li>Founder of the Storey Group</li> 
+<li>One Billion Tree Planting, Waste to Energy</li> 
+<li>Deep UAE experience</li> 
+          </ul>
+        </Profile>
+      </Col>      
+    </Row> 
   </section>
 );
 

@@ -23,7 +23,7 @@ const CorpPartners = () => (
               <a href="https://www.hoganlovells.com/">Hogan Lovells</a>
             </li>
             <li>
-              <a href="https://www.centeronbusinessandpoverty.com/">Center on Business and Poverty</a>
+              <a href="https://www.adportsgroup.com/en">AD Ports Group</a>
             </li>
             <li>
               <a href="https://catalyst2030.net/">Catalyst 2030 (founding member)</a>
@@ -57,8 +57,8 @@ const CorpPartners = () => (
                   </a>
                 </ListGroup.Item>
                 <ListGroup.Item className={css.list_group_item}>
-                  <a href="https://www.centeronbusinessandpoverty.com/">
-                    <Image src="/static/center_on_business_and_poverty.png" width={130} height={130} fluid />
+                  <a href="https://www.adportsgroup.com/en">
+                    <Image src="/static/ad.png" width={130} height={130} fluid />
                   </a>
                 </ListGroup.Item> 
                 <ListGroup.Item className={css.list_group_item}>

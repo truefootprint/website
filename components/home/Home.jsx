@@ -58,8 +58,8 @@ const Home = () => (
       <Target name="team">
         <Team />
       </Target>
-      <CountryPartners />
-      <Advisory />
+      {/* <CountryPartners /> */}
+      {/* <Advisory /> */}
       <CorpPartners />
       <Target name="contact">
         <section className={`${css.full_width} ${css.contact}`}>

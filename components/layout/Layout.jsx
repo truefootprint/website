@@ -1,13 +1,13 @@
 import Head from "next/head";
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 import { Container, Row, Col } from "react-bootstrap";
 
 // import "./reset.module.scss";
 // import "./typography.module.scss";
 
 
-ReactGA.initialize("UA-144174517-1");
-ReactGA.pageview("/");
+ReactGA.initialize("G-T51BRKN7EH");
+
 
 const Layout = ({ children }) => <>
   <Head>
